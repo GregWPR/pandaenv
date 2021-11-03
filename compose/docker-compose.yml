@@ -1,0 +1,62 @@
+version: '3'
+
+services:
+  jenkins:
+    image: jenkins/jenkins:jdk11
+    container_name: jenkinscompose
+    ports:
+    - "8880:8080"
+    - "50000:50000"
+    volumes:
+    - ../volumes/jenkins:/var/jenkins_home
+    networks:
+    - docker_network
+
+  ubuntu:
+    container_name: ubuntucompose
+    build:
+      context: ../dockerfiles/slave/
+    depends_on:
+    - "jenkins"
+    networks:
+    - docker_network
+    volumes: 
+    - /var/run/docker.sock:/var/run/docker.sock
+    command: java -jar agent.jar -jnlpUrl http://192.168.44.44:8880/computer/ubuntucompose/jenkins-agent.jnlp -secret 3d120ed1bc04c0a5f9298050fe34f806b919bc093c418dc90410b6db35f2e9ef -workDir "/home/"
+
+  selenium-hub:
+    image: selenium/hub:latest
+    container_name: selenium-hubcompose
+    ports:
+    - "4442:4442"
+    - "4443:4443"
+    - "4444:4444"
+    networks:
+    - docker_network
+  
+  selenium-node:
+    image: selenium/node-firefox
+    container_name: firefoxcompose
+    depends_on: 
+    - selenium-hub
+    environment:
+    - SE_EVENT_BUS_HOST=selenium-hubcompose
+    - SE_EVENT_BUS_PUBLISH_PORT=4442
+    - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
+    networks:
+    - docker_network
+
+  artifactory:
+    image: docker.bintray.io/jfrog/artifactory-oss:latest
+    container_name: artifactorycompose
+    volumes: 
+    - ../volumes/artifactory:/var/opt/jfrog/artifactory
+    ports:
+    - "8081:8081"
+    - "8082:8082"
+    networks:
+    - docker_network
+
+networks:
+  docker_network:
+    driver: bridge
