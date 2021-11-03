@@ -48,7 +48,7 @@ services:
 
   artifactory:
     image: docker.bintray.io/jfrog/artifactory-oss:latest
-    container_name: artifactorycompose
+    container_name: artifactory
     volumes: 
     - ../volumes/artifactory:/var/opt/jfrog/artifactory
     ports:
