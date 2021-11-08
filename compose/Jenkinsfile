@@ -1,8 +1,8 @@
 pipeline {
    agent {
-  label 'ubuntucompose'
-}
- tools {
+    label 'ubuntucompose'
+    }
+tools {
   maven 'Maven3'
 }
 environment {
@@ -53,9 +53,9 @@ environment {
         }
         }
     }
-    post{
-        always{
-            sh "docker stop ${KONTENER}"
-               }
-        }
+ //   post{
+ //       always{
+ //          sh "docker stop ${KONTENER}"
+ //              }
+ //       }
     }
