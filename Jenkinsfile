@@ -9,7 +9,7 @@ tools {
 environment {
   IMAGE = readMavenPom().getArtifactId()
   VERSION = readMavenPom().getVersion()}
-  KONTENER = 'pandaapp'
+  KONTENER = "pandaapp"
     
     stages {
         
