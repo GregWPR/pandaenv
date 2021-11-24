@@ -76,8 +76,8 @@ environment {
 	    stage('Run terraform') {
             steps {
                 dir('infrastructure/terraform') { 
-			withCredentials([file(credentialsId: 'panda_klucz', variable: 'terraformpanda')]) {
-			sh "cp \$terraformpanda ../panda_klucz.pem"
+			withCredentials([file(credentialsId: 'panda_kurs', variable: 'terraformpanda')]) {
+			sh "cp \$terraformpanda ../panda_kurs.pem"
 			sh "pwd"
                 } 
 			withCredentials([[$class: 'AmazonWebServicesCredentialsBinding', credentialsId: 'aws-credentials']]) {
