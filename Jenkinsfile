@@ -82,8 +82,10 @@ environment {
 			withCredentials([[$class: 'AmazonWebServicesCredentialsBinding', credentialsId: 'aws-credentials']]) {
                         test="${AWS_ACCESS_KEY_ID}"
 			sh 'terraform init && terraform apply -auto-approve -var-file panda.tfvars'
-            }
-        }
+            			}
+        		}
+		}
+	}
         stage('Copy Ansible role') {
             steps {
                 sh 'sleep 180'
