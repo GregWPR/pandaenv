@@ -78,6 +78,7 @@ environment {
                 dir('infrastructure/terraform') { 
 			withCredentials([file(credentialsId: 'panda_klucz', variable: 'terraformpanda')]) {
 			sh "cp \$terraformpanda ../panda_klucz.pem"
+			sh "pwd"
                 } 
 			withCredentials([[$class: 'AmazonWebServicesCredentialsBinding', credentialsId: 'aws-credentials']]) {
 			sh 'terraform init && terraform apply -auto-approve -var-file panda.tfvars'
