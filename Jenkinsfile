@@ -4,12 +4,15 @@ pipeline {
        label 'ubuntucompose'}
 
 tools {
+  terraform 'Terraform'
   maven 'Maven3'}
   
 environment {
   IMAGE = readMavenPom().getArtifactId()
   VERSION = readMavenPom().getVersion()
-  KONTENER = "pandaapp"}
+  KONTENER = "pandaapp"
+  ANSIBLE = tool name: 'Ansible', type:
+            'com.cloudbees.jenkins.plugins.customtools.CustomTool'}
     
     stages {
         
@@ -52,10 +55,55 @@ environment {
             }
         }
         }
-    }
+        stage('Test installation') {
+                steps { sh 'terraform --version' 
+                sh 'ansible --version'
+                } 
+            }
+            
+         stage('Check AWS Env') {
+                steps {
+                     script {
+                         def test
+                         withCredentials([[$class: 'AmazonWebServicesCredentialsBinding', credentialsId: 'aws-credentials']]) {
+                         test="${AWS_ACCESS_KEY_ID}"
+                
+                          }
+                         sh "echo $test"
+                       }
+    		}
+		}
+	stage('Run terraform') {
+            steps {
+                dir('infrastructure/terraform') { 
+			withCredentials([file(credentialsId: 'panda_klucz', variable: 'terraformpanda')]) {
+			sh "cp \$terraformpanda ../panda_klucz.pem"
+                } 
+			withCredentials([[$class: 'AmazonWebServicesCredentialsBinding', credentialsId: 'aws-credentials']]) {
+                        test="${AWS_ACCESS_KEY_ID}"
+			sh 'terraform init && terraform apply -auto-approve -var-file panda.tfvars'
+            }
+        }
+        stage('Copy Ansible role') {
+            steps {
+                sh 'sleep 180'
+                sh 'cp -r infrastructure/ansible/panda/ /etc/ansible/roles/'
+            }
+        }
+        stage('Run Ansible') {
+            steps {
+                dir('infrastructure/ansible') { 
+                    sh 'chmod 600 ../panda.pem'
+                    sh 'ansible-playbook -i ./inventory playbook.yml -e ansible_python_interpreter=/usr/bin/python3'
+                } 
+            }
+        }	
+
 post {
     always {
         sh "docker stop ${KONTENER}"
          }
     }
 }
+}
+
