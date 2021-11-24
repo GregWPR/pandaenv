@@ -24,7 +24,7 @@ environment {
     
         stage('Get Code'){
             steps{
-                git branch: 'selenium_grid', url: 'https://github.com/mwocka/panda_application.git '
+                git branch: 'main', url: 'https://github.com/gregwpr/pandaenv.git '
             }
         }
         
