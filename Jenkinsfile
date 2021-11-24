@@ -61,18 +61,18 @@ environment {
                 } 
             }
             
-         stage('Check AWS Env') {
-                steps {
-                     script {
-                         def test
-                         withCredentials([[$class: 'AmazonWebServicesCredentialsBinding', credentialsId: 'aws-credentials']]) {
-                         test="${AWS_ACCESS_KEY_ID}"
-                
-                          }
-                         sh "echo $test"
-                       }
-    		}
-		}
+       //  stage('Check AWS Env') {
+       //         steps {
+       //             script {
+       //                  def test
+       //                  withCredentials([[$class: 'AmazonWebServicesCredentialsBinding', credentialsId: 'aws-credentials']]) {
+       //                 test="${AWS_ACCESS_KEY_ID}"
+       //         
+       //                   }
+       //                  sh "echo $test"
+       //                }
+       //	}
+	   //}
 	    stage('Run terraform') {
             steps {
                 dir('infrastructure/terraform') { 
