@@ -43,11 +43,11 @@ environment {
                 sh "docker run -d -p 0.0.0.0:8080:8080 --name ${KONTENER} ${IMAGE}:${VERSION}"
             }
         }
-        stage('Test Selenium'){
-            steps{
-                sh "mvn -Pselenium test"
-            }
-        }
+        //stage('Test Selenium'){
+        //    steps{
+        //        sh "mvn -Pselenium test"
+        //    }
+        //}
         stage('Deploy jar to artifactory'){
             steps{
                 configFileProvider([configFile(fileId: '73f1706b-c17d-4fa7-85f0-335f06c96d48', variable: 'mavensettings')])
@@ -72,7 +72,7 @@ environment {
        //                  sh "echo $test"
        //                }
        //	}
-	   //}
+       //}
 	    stage('Run terraform') {
             steps {
                 dir('infrastructure/terraform') { 
