@@ -73,7 +73,7 @@ environment {
                        }
     		}
 		}
-	stage('Run terraform') {
+	    stage('Run terraform') {
             steps {
                 dir('infrastructure/terraform') { 
 			withCredentials([file(credentialsId: 'panda_klucz', variable: 'terraformpanda')]) {
@@ -84,8 +84,8 @@ environment {
 			sh 'terraform init && terraform apply -auto-approve -var-file panda.tfvars'
             			}
         		}
-		}
-	}
+		    }
+    	}
         stage('Copy Ansible role') {
             steps {
                 sh 'sleep 180'
@@ -107,5 +107,3 @@ post {
          }
     }
 }
-}
-
