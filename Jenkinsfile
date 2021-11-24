@@ -80,7 +80,6 @@ environment {
 			sh "cp \$terraformpanda ../panda_klucz.pem"
                 } 
 			withCredentials([[$class: 'AmazonWebServicesCredentialsBinding', credentialsId: 'aws-credentials']]) {
-                        test="${AWS_ACCESS_KEY_ID}"
 			sh 'terraform init && terraform apply -auto-approve -var-file panda.tfvars'
             			}
         		}
