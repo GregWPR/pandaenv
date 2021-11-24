@@ -100,9 +100,9 @@ environment {
             	}	
         }	
 	}
-post {
-    always {
-        sh "docker stop ${KONTENER}"
-         }
-    }
+//post {
+//    always {
+//        sh "docker stop ${KONTENER}"
+//        }
+//    }
 }
