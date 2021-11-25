@@ -2,4 +2,4 @@
 repository_url: http://192.168.44.44:8081/artifactory/libs-release-local
 username: panda
 password: Panda1234!
-artifact_name: ./application.jar
+artifact_name: ./panda-0.0.1.jar
