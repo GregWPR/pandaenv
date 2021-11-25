@@ -2,7 +2,7 @@
 Description=Application
 
 [Service]
-ExecStart=/usr/bin/java -jar /home/ubuntu/application.jar
+ExecStart=/usr/bin/java -jar /home/ubuntu/panda-0.0.1.jar
 
 [Install] 
 WantedBy=multi-user.target
