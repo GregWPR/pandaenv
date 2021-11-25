@@ -97,7 +97,7 @@ environment {
             steps {
                 dir('infrastructure/ansible') { 
                     sh 'chmod 600 ../panda_kurs.pem'
-                    sh 'ansible-playbook playbook.yml -i ./inventory --extra-vars ansible_python_interpreter=/usr/bin/python3'
+                    sh 'ansible-playbook playbook.yml -i ./inventory --extra-vars ansible_python_interpreter=/usr/bin/python3 -vvv'
 //                  sh 'ansible-playbook -i ./inventory playbook.yml'
                 	} 
             	}	
