@@ -88,7 +88,7 @@ environment {
     	}
         stage('Copy Ansible role') {
             steps {
-                sh 'sleep 180'
+                // sh 'sleep '
                 sh 'cp -r infrastructure/ansible/panda/ /etc/ansible/roles/'
 		sh 'ls /etc/ansible/roles/'
             }
