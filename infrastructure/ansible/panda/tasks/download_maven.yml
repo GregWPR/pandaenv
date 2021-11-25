@@ -17,13 +17,13 @@
 #  environment:
 #    CFLAGS: "-O0"
 #  connection: local
-#
-#- name: Download Java artifact
-#  maven_artifact:
-#    group_id: pl.pandait
-#    artifact_id: panda
-#    repository_url: "{{ repository_url }}"
-#    username: "{{ username }}"
-#    password: "{{ password }}"
-#    dest: "{{ artifact_name }}"
-#  connection: local
+
+- name: Download Java artifact
+  maven_artifact:
+    group_id: pl.pandait
+    artifact_id: panda
+    repository_url: "{{ repository_url }}"
+    username: "{{ username }}"
+    password: "{{ password }}"
+    dest: "{{ artifact_name }}"
+  connection: local
