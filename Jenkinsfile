@@ -95,7 +95,7 @@ environment {
         stage('Run Ansible') {
             steps {
                 dir('infrastructure/ansible') { 
-                    sh 'chmod 600 ../panda.pem'
+                    sh 'chmod 600 ../panda_kurs.pem'
                     sh 'ansible-playbook -i ./inventory playbook.yml -e ansible_python_interpreter=/usr/bin/python3'
                 	} 
             	}	
