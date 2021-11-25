@@ -19,6 +19,7 @@
 #  connection: local
 
 - name: Download Java artifact
+  become: yes
   maven_artifact:
     group_id: pl.pandait
     artifact_id: panda
