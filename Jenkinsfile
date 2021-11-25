@@ -79,12 +79,12 @@ environment {
 			withCredentials([file(credentialsId: 'panda_kurs', variable: 'terraformpanda')]) {
 			sh "cp \$terraformpanda ../panda_kurs.pem"
 			sh "pwd"
-                } 
+                	} 
 			withCredentials([[$class: 'AmazonWebServicesCredentialsBinding', credentialsId: 'aws-credentials']]) {
 			sh 'terraform init && terraform apply -auto-approve -var-file panda.tfvars'
-            			}
-        		}
-		    }
+            		}
+        	}
+	    }
     	}
         stage('Copy Ansible role') {
             steps {
