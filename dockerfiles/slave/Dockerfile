@@ -6,3 +6,4 @@ RUN apt install -y curl openjdk-11-jdk git maven
 RUN adduser --disabled-password --gecos "" jenkins
 RUN curl -fsSL https://get.docker.com |sh
 RUN apt install -y python3
+RUN apt install -y python-lxml
