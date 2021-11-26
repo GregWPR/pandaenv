@@ -48,12 +48,12 @@ environment {
                 sh "mvn -Pselenium test"
             }
         }
-        stage('Deploy jar to artifactory'){
-            steps{
-                configFileProvider([configFile(fileId: '73f1706b-c17d-4fa7-85f0-335f06c96d48', variable: 'mavensettings')])
-                {  sh "mvn -s $mavensettings deploy"
-            }
-        }
+        //stage('Deploy jar to artifactory'){
+        //    steps{
+        //        configFileProvider([configFile(fileId: '73f1706b-c17d-4fa7-85f0-335f06c96d48', variable: 'mavensettings')])
+        //        {  sh "mvn -s $mavensettings deploy"
+        //    }
+        //}
         }
         stage('Test installation') {
                 steps { sh 'terraform --version' 
