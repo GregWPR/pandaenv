@@ -54,7 +54,7 @@ environment {
         //        {  sh "mvn -s $mavensettings deploy"
         //    }
         //}
-        }
+        //}
         stage('Test installation') {
                 steps { sh 'terraform --version' 
                 sh 'ansible --version'
