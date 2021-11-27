@@ -35,7 +35,7 @@ environment {
         }
         stage('Build Docker image'){
             steps{
-                sh 'mvn package -Pdocker'
+                sh 'mvn -Pdocker package'
             }
         }
         stage('Run Docker app'){
