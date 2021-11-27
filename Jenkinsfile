@@ -48,31 +48,31 @@ environment {
                 sh "mvn -Pselenium test"
             }
         }
-        //stage('Deploy jar to artifactory'){
-        //    steps{
-        //        configFileProvider([configFile(fileId: '73f1706b-c17d-4fa7-85f0-335f06c96d48', variable: 'mavensettings')])
-        //        {  sh "mvn -s $mavensettings deploy"
-        //    }
-        //}
-        //}
+        stage('Deploy jar to artifactory'){
+            steps{
+                configFileProvider([configFile(fileId: '73f1706b-c17d-4fa7-85f0-335f06c96d48', variable: 'mavensettings')])
+                {  sh "mvn -s $mavensettings deploy"
+            }
+        }
+        }
         stage('Test installation') {
                 steps { sh 'terraform --version' 
                 sh 'ansible --version'
                 } 
             }
             
-       //  stage('Check AWS Env') {
-       //         steps {
-       //             script {
-       //                  def test
-       //                  withCredentials([[$class: 'AmazonWebServicesCredentialsBinding', credentialsId: 'aws-credentials']]) {
-       //                 test="${AWS_ACCESS_KEY_ID}"
-       //         
-       //                   }
-       //                  sh "echo $test"
-       //                }
-       //	}
-       //}
+         stage('Check AWS Env') {
+                steps {
+                    script {
+                         def test
+                         withCredentials([[$class: 'AmazonWebServicesCredentialsBinding', credentialsId: 'aws-credentials']]) {
+                        test="${AWS_ACCESS_KEY_ID}"
+                
+                          }
+                         sh "echo $test"
+                       }
+       	}
+       }
 	    stage('Run terraform') {
             steps {
                 dir('infrastructure/terraform') { 
