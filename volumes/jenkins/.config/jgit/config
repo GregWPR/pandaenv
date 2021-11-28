@@ -1,0 +1,3 @@
+[filesystem "Eclipse Adoptium|11.0.13|/dev/mapper/vagrant--vg-root"]
+	timestampResolution = 3000 nanoseconds
+	minRacyThreshold = 25206 microseconds

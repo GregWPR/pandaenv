@@ -1,0 +1,32 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: runner
+Build-Jdk: 1.8.0_292
+Extension-Name: aws-java-sdk-minimal
+Specification-Title: Contains minimal AWS SDK modules that must live i
+ n the same classloader:
+     * core
+     * jmespath
+     * kms
+     * s3
+     * sts
+Implementation-Title: aws-java-sdk-minimal
+Implementation-Version: 1.12.101-300.vc09c7be9cb57
+Group-Id: org.jenkins-ci.plugins.aws-java-sdk
+Short-Name: aws-java-sdk-minimal
+Long-Name: Amazon Web Services SDK :: Minimal
+Url: https://github.com/jenkinsci/aws-java-sdk-plugin
+Minimum-Java-Version: 1.8
+Plugin-Version: 1.12.101-300.vc09c7be9cb57
+Hudson-Version: 2.249.3
+Jenkins-Version: 2.249.3
+Plugin-Dependencies: apache-httpcomponents-client-4-api:4.5.13-1.0,jac
+ kson2-api:2.13.0-230.v59243c64b0a5
+Plugin-Developers: Vincent Latombe:vlatombe:vincent@latombe.net
+Support-Dynamic-Loading: true
+Plugin-License-Name: MIT License
+Plugin-License-Url: https://opensource.org/licenses/MIT
+Plugin-ScmUrl: https://github.com/jenkinsci/aws-java-sdk-plugin/aws-ja
+ va-sdk-minimal
+

@@ -1,0 +1,31 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@3.8">
+  <node class="cps.n.StepStartNode" plugin="workflow-cps@2633.v6baeedc13805">
+    <parentIds>
+      <string>9</string>
+    </parentIds>
+    <id>10</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.EnvStep</descriptorId>
+  </node>
+  <actions>
+    <s.a.LogStorageAction/>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2633.v6baeedc13805">
+      <arguments>
+        <entry>
+          <string>overrides</string>
+          <list>
+            <string>GIT_BRANCH=origin/main</string>
+            <string>GIT_COMMIT=fc2232a6f103f4f7738fae3ac57c610978d82fce</string>
+            <string>GIT_PREVIOUS_COMMIT=fc2232a6f103f4f7738fae3ac57c610978d82fce</string>
+            <string>GIT_URL=https://github.com/gregwpr/pandaenv.git</string>
+          </list>
+        </entry>
+      </arguments>
+      <sensitiveVariables/>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@2.47">
+      <startTime>1637970674734</startTime>
+    </wf.a.TimingAction>
+  </actions>
+</Tag>

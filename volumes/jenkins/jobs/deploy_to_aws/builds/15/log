@@ -1,0 +1,940 @@
+Started by user [8mha:////4Mg30M4IuO+4KYjVK5qj/tjm/pII7Lldo3MllY8Em8XZAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Obtained Jenkinsfile from git https://github.com/gregwpr/pandaenv.git
+[8mha:////4BTuxYIJDn1bwKK7YKvUxxp0GfBO0f1bPKhl3sqistCdAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4L9vBcHZ/9lGQsWKyQ6jEQx9hGgtETqEE8W6zF7F3XbRAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4L7IOtXAsIThhRsVjdaHgD/He3oHcPL/BjMEo83pYTmEAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgYJ/eT83ILSktQi/dKk0rySUhA3vzhVHwBzEEiXzQAAAA==[0mubuntucompose in /home/workspace/deploy_to_aws
+[8mha:////4Bzof/9pyYn+vqKqIi/jjUFxMl7OH0K6W3nMNAbqUbO3AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4CHYaDCFac3FVhv4ML81aF5FEo79HzngonyusMsyQJleAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4EBRMqFEHASRZL/himjKvklhJIwJ/6ZIc/Hl+oxy1lnHAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4LKfuhg2dzB4gxLYq6a1GSvDFhrbv0xYY+OEMT1ODEy6AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+Fetching changes from the remote Git repository
+Checking out Revision fc2232a6f103f4f7738fae3ac57c610978d82fce (refs/remotes/origin/main)
+Commit message: "sdsdsd"
+ > git rev-parse --resolve-git-dir /home/workspace/deploy_to_aws/.git # timeout=10
+ > git config remote.origin.url https://github.com/gregwpr/pandaenv.git # timeout=10
+Fetching upstream changes from https://github.com/gregwpr/pandaenv.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.17.1'
+ > git fetch --tags --progress -- https://github.com/gregwpr/pandaenv.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f fc2232a6f103f4f7738fae3ac57c610978d82fce # timeout=10
+ > git rev-list --no-walk 3ec126ff29e8b9146c7abac646e16c878a7e135a # timeout=10
+[8mha:////4KOIIRhm6au59rjrVmNgl0msQ7VHIW7dWa0qumGkWlgqAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4FRhBY3NCmfV/3kOUVZTFH4wnns7UAHIsqLWl3HAwGtAAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4JXgxiSHiJ/vZhLJuM9KnC4DU2amff0OXDeZivLplOvpAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4AwU1VoxvAoxcYXNPczFb2AUTyoOO72S5j/YXCouKzWeAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4DzvY+Msvepz8v25VK8P/6TED/dp9UWgR7CUk8nFXBR1AAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggysXWsbBkaT4AJIoT5nwCRVJ7Iq3kH0cxYucXOvm3e8wXrGOBIQTOrcDAYO8O8m3RZLFMYro4ys3RhHWEkp5hQWVCvTgsKSgqWVDWsOGwUdo6iQZ1gy628y8ZJ1M05hfIdONSmH+EBFS/mJEP6whxgd5v6SPjz/BXA7BPUbfupvX8DpQJrNb4AAAA=[0m[Pipeline] readMavenPom
+[8mha:////4FMNWn3saVbYl56VT24/tDU60lchG23nm6B4Rn81t2ylAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyGUvHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzD5B3baf2vs35DNwLL4AAAA=[0m[Pipeline] readMavenPom
+[8mha:////4M+5RqKgs17FjbYHuGxoUJXuNf+n0SIbK8PMV2HU5hagAAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/QiaJm7GyZWw+AXYIkLJexSodPKL/DX/QbSJk3e4uecu5/mCdQxwpKCZVTgYjJ1h3k26LJYpDFdHmVm6sI4wklNMqCyoV6cFBSUFS6oaVhw2CjtH0aBOsOVW3mXjJOrmnEL5Dhxq04/wgIoXc5IhfWEOsLtNfST8ef4KYPYJ6rb91N6/ASOlMWO+AAAA[0m[Pipeline] tool
+[Ansible] $ sh -e /home/tools/com.cloudbees.jenkins.plugins.customtools.CustomTool/Ansible/hudson382997388323898745.sh
+/usr/bin/ansible
+Ansible already installed
+[8mha:////4AiUIp2vU2/O7P80CHXAGOxBg4jR9xb0tkpihy43H6XhAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUHZgQE2uUhROEJoSk0f9tkpJOnIircQdaKjHhwbItWe/1hioGOFEwzGnsLMbWst6PZk4sU+hunjJzdGUtYSSvmdBZkNLntQpKGlYVJWw4bDW2nqJFk2DHnXzI2ks09SWFeTtyKK0a4AkFn8lJhvQtU4D9fVSR8Mf5C4CpT1A2zWKH5Vl9ANc8r4bCAAAA[0m[Pipeline] withEnv
+[8mha:////4N1qmy/cSqPwI1iJvv8VdGKWHhfdRw3qdy45hKyw4M01AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/s94rDCAAAA[0m[Pipeline] {
+[8mha:////4FNkMRGtRvFvF45UC1Ct1Lm9omnrDlsW4SdlWEx25E+KAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] stage
+[8mha:////4MvOjxLWbtBrQxovI83vkVRVdt5gSqU2M7I40jEDsM1VAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] { (Declarative: Tool Install)
+[8mha:////4H1T9R8zOjLSjRwLdvxrJYyzeS39ULhNSJ6811wUEmA5AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiOhCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBr2eB0O+AAAA[0m[Pipeline] tool
+[8mha:////4OoYiDsFSLfSN0kuDv4Jh1ns8lwgCwIP9V1QDhpXKkoHAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICVEgoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AGtm4OQvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4NZELAisoG3ZAJMIXHoUDEqg0ZRlY7nwXqdAA+IkgXA9AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiUCEhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAcw+QVkfcu1r/wHsqpiJvgAAAA==[0m[Pipeline] tool
+[8mha:////4DGkhTCfKiUeoiFaZukYc8KOXU5qKzRMuigUOlElL4PMAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRqZAQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAcw+Qbk/5Kpr/wEv+bWivgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4JuNaWAWnLvr94TsTqJVMSzZZzzfXTjudcCt1n/to2xUAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEFCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw+4R02vvgAAAA==[0m[Pipeline] }
+[8mha:////4Ne23wlMWiEhrEruoOOYgcb3Qdlj+WnjEmLwWHLyUQHCAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEBIFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwAkWr3Ir4AAAA=[0m[Pipeline] // stage
+[8mha:////4N2nmblBdu4OEPEImYq/4H25oiHRbw8kPuGyR4dYbnNIAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIMGCOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK52Wfb7j7P6g3JM3yewgAAAA==[0m[Pipeline] withEnv
+[8mha:////4Nmt3u7bPBDWT6RsKCsZxvaIB6+SVL6GHexqM+Lt7LMzAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQoIFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfACW9ZT2wgAAAA==[0m[Pipeline] {
+[8mha:////4DQm+9X30aY9magQAhHuMvkIFQgv3OL7bFOP321XyCvaAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYoABMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAyQCqkwgAAAA==[0m[Pipeline] stage
+[8mha:////4EqeMUySrtvakkzoj8eIDZ/euFpAsT4gYpxcd97uDzlIAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgEJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAnLfKUwgAAAA==[0m[Pipeline] { (Clear running apps)
+[8mha:////4PmfzLvEihmTUc1U54tS0092/kSAHzvCzbXq93yVQlU7AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUYEQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNwcnzs++AAAA[0m[Pipeline] tool
+[8mha:////4KYwCQSvWr7WkQVnSowf1iKwB0Wk+0ZqBQaKmWnMgLC6AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoEFCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw959s4fvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4EmNNDmU8jhXhHhhnNbEQUaINZ1z9n3bY5mGB3A+0+W9AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEFCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw84x9UGvgAAAA==[0m[Pipeline] tool
+[8mha:////4Ox768wUyIcw5yeCGUxXFZ/nCUpHPwI30XlTSWiEUswjAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihQYJUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2Ccr6kGtf+w/7lPgtvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4MQkD7v3sEk2qytcMXgm55TQ9oT2wHyyBf1NzAhTohN6AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUogsSYuoaZeEEIQkhbfR/SVLaiRNxNe5AoBITHizbkvWeL6higCMFyzqDvcOoHBv8aHNiE4X+4mliHZ2ZIozkDRNmEqRNu1RBycCiooQVh7VB5Sk6tAk2vJN3WXuJtj6lkLcDh9LpGzyg4JmcZEjfMgfYXkcdCX+cvwCYhwTlbp+taT7P6g2WIrrLwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4KWR8QqpT2xykeaqFFrPTxRXy8wOeYMa0XPPh5WMkdw0AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KBtiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPBdk7bsIAAAA=[0m[Pipeline] {
+[8mha:////4BdQnSSIRBuFjNifUsmUWo8nMa3+AJxD2dYkQfqhxTZTAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSABWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBtZos2m+AAAA[0m[Pipeline] sh
++ docker rm -f pandaapp
+pandaapp
+[8mha:////4Jc13WwCNnck1j5/QgCZ4kl/YX4+hEF8gi7U97Nc6cIjAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7Nxbzd2K+AAAA[0m[Pipeline] }
+[8mha:////4B+H3s88+7j3DKIrwKT44f+f0v4ufMzXTuXerH7hSOEZAAAApB+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSpLBwrGwZGk+ACSKE+Z8AkVSeyKt5B9HMWLnFzr5t3vMF6xjgSEEzq3AwGDvDvJt0WSxTGK6OMrN0YR1hJKeYUFlQr04LCkoKllQ1rDhsFHaOokGdYMutvMvGSdTNOYXyHTjUph/hARUv5iRD+sIcYHeb+kj48/wVwOx9grrdf6p9AxC1Tze+AAAA[0m[Pipeline] // withEnv
+[8mha:////4LplJU9YFNWQrKltYjUl3DgEkFUcQc33P5VlNzaNfIO3AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQRMJUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkF5qHPt6w8M79BIvgAAAA==[0m[Pipeline] }
+[8mha:////4CYHfCp+InugT9P02M1/HWE4cys759ebQSVUbqhmOW83AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQYEQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryd8i13X8AOCEzE74AAAA=[0m[Pipeline] // stage
+[8mha:////4HJMg0ydpfRMDUBJGiRyLQhyS6MO46yEDroHReFQNiPJAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUIcSCOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WfbbT7P6g2wRf/awgAAAA==[0m[Pipeline] stage
+[8mha:////4D7UohEcMACS63NZcHROvtF2LJ68zkzYmw2bg+D2KIeQAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUJDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAbb5KxbCAAAA[0m[Pipeline] { (Get Code)
+[8mha:////4E+2FIvLn1qiIotVoCL/IZWMMqguTNX4OhUxlNRvrBY5AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBirOQHu+AAAA[0m[Pipeline] tool
+[8mha:////4MBfikQ7geAOcF4d71gnNDqsJBJ0DkNKA7iWHMXtyT3xAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBmv/W2K+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4BUUm8SRuq6f8ugSDHb6hvjPUaM2uKv+K+I7P0tLex7EAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIipHSIitZKwwtMYowd686xHZyKF/E1/kAgEhVbrHa2mecL1jHAkYNGq6g3FFuD3o16Xpg59FfHGS1fsGWK7BQ2KjfcqdOCDScFS4oSVgI2ilrH0ZBOsBVW3mXlJOnqnML8HQSUphvgAYWYzUmG9IUpwO42dpHp5/krgMknKOv9p2r/BqxpGi2+AAAA[0m[Pipeline] tool
+[8mha:////4H5cI5AOGs4fMLTiZmKhD7tXxu1RG4KqQ8bBvnSdUaqqAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO62n9qHN+1YATS+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4Pp7/Ca196T5bd+DoJ37Wim4DK5jOUwzVkG0NsRjvAm+AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSIgFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLk+91sh/lZfADOFqDKwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4HSHSlRNW+l0YWG8GgFSoBgaf6Q6UHpmnq4emieebdo/AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QTAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD+jQxyjCAAAA[0m[Pipeline] {
+[8mha:////4D2CGA40YmRkMJuSZwOKf3UTtI13qa0qloiFnBEQs32eAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSIIGEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGaE3/ivgAAAA==[0m[Pipeline] git
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+Fetching changes from the remote Git repository
+Checking out Revision fc2232a6f103f4f7738fae3ac57c610978d82fce (refs/remotes/origin/main)
+Commit message: "sdsdsd"
+[8mha:////4KDuCP4pWuVJ78ZoYc4hHstRCOb2Y0zi4zddIxE5mB5IAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSICGEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQEwuM6AvgAAAA==[0m[Pipeline] }
+[8mha:////4IMbhDH85jkpwYyPUB9H1xIy0cSPjOjQX9pG05BoKThgAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCATQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AHa0rF2vgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4ER6DWFkePn/dh0L0s9c80zfuWpNX+zfR0a7qBn/cJb3AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiSFAhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJygPda59/QHclIkjvgAAAA==[0m[Pipeline] }
+[8mha:////4HdMJTWEDEYthv/YwLjOe/S+dq10GyhWqXiSMg2DTQXCAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCEFQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrDLtd++wHk1hrSvgAAAA==[0m[Pipeline] // stage
+[8mha:////4LanhJr+lwPZfjKIWeK5pSHiYTqHEi/decazo+vpVyjWAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAsGCOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK52WfbbT/P6g2qPBz6wgAAAA==[0m[Pipeline] stage
+[8mha:////4OHuTH885ZoRS71TKoDfGT6Dn2XsZnp7Um3lC9h4hZEDAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ACbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAd9J1uLCAAAA[0m[Pipeline] { (Build and Junit)
+[8mha:////4LUwRNvjE1F8S+JzdhI8/dbbGwhS5aAWL9W0lB3eDjOKAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSkApR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3f4x1Rq74AAAA=[0m[Pipeline] tool
+[8mha:////4BUVJdz6vrCOyDTrNfdwzShUL9aZ0eUfA//CAG+0F6IQAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSAA2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyt32U/vwBiBOfIC+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4BjWr8fAZ3WSF5XlHg3//k7z8f77HjXexeFC1mIW8Ar1AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSgCgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO62n9qHN2F/Z5m+AAAA[0m[Pipeline] tool
+[8mha:////4Ii63PxvnsZI737dttstAcCwpZHTF8yrfbsnXv9kYlBUAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSgISEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK3/dQ+vAGuY/8evgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4DFIRZm1XKizX8ZuoPqZHc/ENkpTAVu/Bf9Ay3/LVeReAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0gQEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8v5vtMD+LD4JPc3fCAAAA[0m[Pipeline] withEnv
+[8mha:////4NV1Sn8MZi6Gg0QznjLnmB3hMJGehFJ6zrlHGG7MGG1WAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUBSSEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WfbbT7P6g3QSQCqwgAAAA==[0m[Pipeline] {
+[8mha:////4Ag2spvZZ1gegEccD12mYhyggNmCEUdog3ESjqy5yYJUAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICDQ2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBk5Fu7e+AAAA[0m[Pipeline] sh
++ mvn clean install
+ > git rev-parse --resolve-git-dir /home/workspace/deploy_to_aws/.git # timeout=10
+ > git config remote.origin.url https://github.com/gregwpr/pandaenv.git # timeout=10
+Fetching upstream changes from https://github.com/gregwpr/pandaenv.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.17.1'
+ > git fetch --tags --progress -- https://github.com/gregwpr/pandaenv.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f fc2232a6f103f4f7738fae3ac57c610978d82fce # timeout=10
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D main # timeout=10
+ > git checkout -b main fc2232a6f103f4f7738fae3ac57c610978d82fce # timeout=10
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------------< pl.pandait:panda >--------------------------
+[INFO] Building panda 0.0.1
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ panda ---
+[INFO] Deleting /home/workspace/deploy_to_aws/target
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ panda ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/workspace/deploy_to_aws/src/main/resources
+[INFO] skip non existing resourceDirectory /home/workspace/deploy_to_aws/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ panda ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default) @ panda ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ panda ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/workspace/deploy_to_aws/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ panda ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ panda ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default) @ panda ---
+[INFO] No tests to run.
+[INFO] Skipping execution of surefire because it has already been run for this configuration
+[INFO] 
+[INFO] --- maven-jar-plugin:3.1.2:jar (default-jar) @ panda ---
+[WARNING] JAR will be empty - no content was marked for inclusion!
+[INFO] Building jar: /home/workspace/deploy_to_aws/target/panda-0.0.1.jar
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.2.4.RELEASE:repackage (repackage) @ panda ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ panda ---
+[INFO] Installing /home/workspace/deploy_to_aws/target/panda-0.0.1.jar to /root/.m2/repository/pl/pandait/panda/0.0.1/panda-0.0.1.jar
+[INFO] Installing /home/workspace/deploy_to_aws/pom.xml to /root/.m2/repository/pl/pandait/panda/0.0.1/panda-0.0.1.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.602 s
+[INFO] Finished at: 2021-11-26T22:59:06Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4EQ6xbQyDPSqQ6bYSvM9o24b5Dsnblb5nEmwH4hxFWsNAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCKGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcr97lPbN/uuxNG+AAAA[0m[Pipeline] }
+[8mha:////4NKNJQKE5OU8UJklNCf/rIQ2ppsJEMaQn1kjiV17Tg6KAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIJAQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wAOZZpSL4AAAA=[0m[Pipeline] // withEnv
+[8mha:////4DrOyNpAYPTaQI12dlP1cU9fbt2xgHcGmZde2jsFrPIrAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSBBpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOWhzrWvPzza3Su+AAAA[0m[Pipeline] }
+[8mha:////4EVA0Ay0dL0hhH9F/CuxHuWmEaj6ANMYo3LUVFF2JLdOAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIpUGgQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJygPda56/wE6nOV+vgAAAA==[0m[Pipeline] // stage
+[8mha:////4MVlQtFMiz2Hijb6dmJFXgwnAKjIv1v0j8KhyOJg+9ehAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYuiCmFijLJwgpCGkjf4vPyntxIm4GncgUIkJD5ZtyXrPF1SR4UDsRGex9xiNF0MYXU5iIu4vgSbR0VkYwkjBCmUnRa09LlVRsrCoKGElYW3RBIoeXYKN7PRd10Gjq0+J87aXUPr2Bg8oZCYnzelbZobtdWwj4Y/zFwDzkKDcNdma5vOs3oS3OZvCAAAA[0m[Pipeline] stage
+[8mha:////4BhGwlvPOEyKCQ2qjdsxOq73gsitiKEN4tOibrWJ3r98AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KwNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPXl9jU8IAAAA=[0m[Pipeline] { (Build Docker image)
+[8mha:////4KwaXnTEp9EZaqXpDxac0n8XdGbYg8JyH+e8jeR/bCzAAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSARKiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBonA3qO+AAAA[0m[Pipeline] tool
+[8mha:////4CYEuIjM2ge3WWZfs9rSEaA/rolkJ5sJa4IDxmwDvvYaAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSgRCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBsjxxbq+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4P0/gVzpTNW1lpJ0PGgoAetiUzJWCHJeu1PM9qBGFoiNAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCRQpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNknKA91rnrvP7YgxWq+AAAA[0m[Pipeline] tool
+[8mha:////4DxjcIQ2ihHWSyjmHsz1s40GfQVOvIwlXBrXG58hMld+AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGlIgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAcw+QXmoc9V7/wH3Ed5zvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4Fz1Vn/5TeCi21Kfm9ZRuhCNav0fFp4KIXg+PIt0QLa+AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYqADYuoaZeEEIQkhbfR/SVLaiRNxNe5AoBITHizbkvWeL6higCMFyzqDvcOoHBv8aHNiE4X+4mliHZ2ZIozkDRNmEqRNu1RBycCiooQVh7VB5Sk6tAk2vJN3WXuJtj6lkLcDh9LpGzyg4JmcZEjfMgfYXkcdCX+cvwCYhwTlvsnW7D7P6g2ZGldkwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4JGUCHQH4oUk1P2xnL5+D8vn7zGgNl43SKCPQW6udJYIAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUgoEBMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfAARKflFwgAAAA==[0m[Pipeline] {
+[8mha:////4DcfZUbLHWRliWpK5efwCitG2sQdx/hK79bb5nVvv0yaAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgESBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAE/wUw2vgAAAA==[0m[Pipeline] sh
++ mvn package -Pdocker
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------------< pl.pandait:panda >--------------------------
+[INFO] Building panda 0.0.1
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ panda ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/workspace/deploy_to_aws/src/main/resources
+[INFO] skip non existing resourceDirectory /home/workspace/deploy_to_aws/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ panda ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default) @ panda ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ panda ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/workspace/deploy_to_aws/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ panda ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ panda ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:3.1.2:jar (default-jar) @ panda ---
+[WARNING] JAR will be empty - no content was marked for inclusion!
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.2.4.RELEASE:repackage (repackage) @ panda ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] 
+[INFO] --- dockerfile-maven-plugin:1.4.13:build (default) @ panda ---
+[INFO] dockerfile: null
+[INFO] contextDirectory: /home/workspace/deploy_to_aws
+[INFO] Building Docker context /home/workspace/deploy_to_aws
+[INFO] Path(dockerfile): null
+[INFO] Path(contextDirectory): /home/workspace/deploy_to_aws
+[INFO] 
+[INFO] Image will be built as panda:0.0.1
+[INFO] 
+[INFO] Step 1/4 : FROM openjdk:11.0
+[INFO] 
+[INFO] Pulling from library/openjdk
+[INFO] Digest: sha256:84539d4caf6f51c850978ee138458560f84c12e647ad78b8fd9f24854b27da1d
+[INFO] Status: Image is up to date for openjdk:11.0
+[INFO]  ---> 8c0978077f16
+[INFO] Step 2/4 : ARG JAR_FILE
+[INFO] 
+[INFO]  ---> Using cache
+[INFO]  ---> f61b7abd1a6f
+[INFO] Step 3/4 : COPY ${JAR_FILE} app.jar
+[INFO] 
+[INFO]  ---> 42891ea6d130
+[INFO] Step 4/4 : ENTRYPOINT ["java","-jar","/app.jar"]
+[INFO] 
+[INFO]  ---> Running in ce1f0f6d403c
+[INFO] Removing intermediate container ce1f0f6d403c
+[INFO]  ---> 15d5e094c584
+[INFO] Successfully built 15d5e094c584
+[INFO] Successfully tagged panda:0.0.1
+[INFO] 
+[INFO] Detected build of image with id 15d5e094c584
+[INFO] Building jar: /home/workspace/deploy_to_aws/target/panda-0.0.1-docker-info.jar
+[INFO] Successfully built panda:0.0.1
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  8.286 s
+[INFO] Finished at: 2021-11-26T22:59:16Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4MGVfOzJw7U1A4Ytc1JSKWeBaq/zE3PyOlFK0utFe0H+AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIESBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDud5/avgEM9aTqvgAAAA==[0m[Pipeline] }
+[8mha:////4Gvp8Y2au84EffRxbS/zFo5YsFwbrIdSviIla2UUbV8iAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUUCBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDud5/avgE0tzcbvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4E28+Xie+3jXGYY+d9feKheC8lMYjgTbcMzV8Sa52e//AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMLpSIGoaC03vMAkh3Fi3Rnbwal4EV/jD1hEomKL1c4283rDOgY4cjBiQBotxc4K7yZTlsgcxqvjLAa+iI4pskOhMCvu8bSg4oSwpKphJWGD1DmOlkyCrRz0QzdOk2nOKZTvIKG2/R2eUMliTjqkL8wBdrepj0w/z18BzN4nqNu21L79AF+hGrm+AAAA[0m[Pipeline] }
+[8mha:////4LOzmZsCDimD8qhAQb/Ve68SHairHnBTeRTdGNuOsW5iAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSBSREldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOX+kKuuPxwjSz++AAAA[0m[Pipeline] // stage
+[8mha:////4LDl786bl+hqJ8El2A8wov42Od4di/ISVnSrS59VyfOVAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgAh1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHKzTbbbv95Vm/lDhjMwgAAAA==[0m[Pipeline] stage
+[8mha:////4JWTcxFjYqQ8T9RULEsLJBng7oxmnmbSPZDFh94lLWvMAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUDRDqxBp14QShCSFp9H9JUtKJE3E17kCgEhMeLNuS9Z4vqIKHhrxmVmFvMHSGDW7UObFEvr84SszSmXWEgZxirUotSXWca0tRwayihAWHpcLOUTCoI6y4FXdRO4G6PkWftwOH0sgbPKDgmRyFj98yeVhfRxkIf5y/AJiGCOV2n223+TyrNxKsBBbCAAAA[0m[Pipeline] { (Run Docker app)
+[8mha:////4FK5r3RTNYx0O1qyg38uEGXyT3/8ODTdX21U7sPI7iNGAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICHRKiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBnZ6r6i+AAAA[0m[Pipeline] tool
+[8mha:////4FJT3A7+WmMBn6UFYKrMgpBV11221LC6+YT0csNBUMWxAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCqJAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFN7UpgoO+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4LUTZZ/fPljfYaCa58JyJ0cLpSIlYuLRftbJYc/UpNd7AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCRIOEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAH0GJmavgAAAA==[0m[Pipeline] tool
+[8mha:////4A30hUaDQpRt/QkfAIl3a5amYV8P/dikmDHjTTLmcDf1AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCQYGEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAEzjtjVvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4KSQHFTUMwG6DIiV0IgLBajbeCRmhSi0+6Q9w23sPRu/AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUBQkJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfABVnBBPwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4DrQCK7I4+z6aUK/uyzKe35OY3fvCR0kuHyiB0Ld1rLZAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AiEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD7lC07jCAAAA[0m[Pipeline] {
+[8mha:////4L2CbG1SDU8t91KtP/GBtvrPEwPjZ3EDWiXm+M2jbZfUAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSARKiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBsroJZ2+AAAA[0m[Pipeline] sh
++ docker run -d -p 0.0.0.0:8080:8080 --name pandaapp panda:0.0.1
+36e42feb8e18f4a26e894f31b6474b52927a00921162be55df0b1169d99115c8
+[8mha:////4O9YwnlzqGPVv0I9u1zAu7VegQ3BJwvXZmMc4YAHfPYeAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSoUiIitZKwwtMYowd686xHZyKF/E1/kAgEhVbrHa2mecL1jHAkYNGq6g3FFuD3o16Xpg59FfHGS1fsGWK7BQ2KjfcqdOCDScFS4oSVgI2ilrH0ZBOsBVW3mXlJOnqnML8HQSUphvgAYWYzUmG9IUpwO42dpHp5/krgMn7BGVdf2r/Bnt+gFe+AAAA[0m[Pipeline] }
+[8mha:////4Kv/w4OWKTXBVxv82JtN4pBU5UZ2PEqO18Xof2TUsGrbAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIYEQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN2T81QW+AAAA[0m[Pipeline] // withEnv
+[8mha:////4AbMIxmfLPTvxOIsZrLcg+8L0r5cqvr/b0II7MNMxDHXAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKSEoSo0lppeIGJjXFi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTDYaxosxc6id6PJCycOw9XxhD1fsGOK7DS2empZ6WbBlpOGJUUJKwEbTZ3jaMkk2IpePmTlJJnqnEL+jgJKq+7whEJkc5IhfWEOsLuNKjL9PH8FMHufoDzUufb1B5dSx/S+AAAA[0m[Pipeline] }
+[8mha:////4CHl0Hn2O6UuH40W9c5HDuGdppAft9UT3kZ1yjdhEOsjAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKhQhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyjrfa5D/QFZJd/BvgAAAA==[0m[Pipeline] // stage
+[8mha:////4BT8Gm9yFiMbbkGksgYJOSlXtT569sc7Mpp2oShLSvhQAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohU6oCEEFPXqAsnCE0ISaP/S5KSTpyIq3EHApWY8GDZlqz3fEEVPBzJa2YVDgZDb9joJp0TS+SHi6PELJ1ZTxjIKdap1JFU7VI7igoWFSWsOKwV9o6CQR1hw624i9oJ1PUp+rwdOJRG3uABBc/kKHz8ltnD9jrJQPjj/AXAPEYom122ffN5Vm97heD2wgAAAA==[0m[Pipeline] stage
+[8mha:////4Lf6Q6v4gbkxZKubCgTkKgBRsgslHaiQj2bt8g7a/s/BAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUggkhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD1KB9/zCAAAA[0m[Pipeline] { (Test Selenium)
+[8mha:////4EvKIsoy26UKwYCwohdgaYyQPNU1Z8X4Cw3xwjCoW5h2AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSQIMQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFNwf+WCm+AAAA[0m[Pipeline] tool
+[8mha:////4PPt6XGFnJRcL75RLmZaM8SzKbiKnTBoWOvFPICYM7G/AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIAqEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAFGz0MwvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4NJlt0niST7YOG+1afs2O9io4F1x655z0G3Q6VDBKH2EAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSICEhRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpT77ad24Q2FnG4bvgAAAA==[0m[Pipeline] tool
+[8mha:////4Oj6v2zIY6kcG8dsGN1Zocyeb+ex1yqVei0HxdtohnnEAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSUCCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAHErXUCvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4ILlrJMFAoxrxZVG/KZA2fkY+aDCCcxcvIYMIwbiHV/WAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YAEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD1GuvlfCAAAA[0m[Pipeline] withEnv
+[8mha:////4ISPC9pK2HwN/Y3Aoj6GszzUMsLMhzmEv14MFbM5aH9yAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0pUJMrFEXThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbyhjgRMFwp7GzGFvLez+aOfFMobt5ytzRlbeEkbzmjc4NKX1ea0NJw6qCwUbAVmPrKVo0CXbCyYesvERTXVKYt6MAZtUATyjETE4ypG+ZAuzvo4qEP85fAEx9AlYfFquXZ/kBsPrDv8IAAAA=[0m[Pipeline] {
+[8mha:////4Df1mAhK1OPSdwxWJiDO9hHzlQrJpJ/poAqICmJgvAA3AAAApB+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxGwZBwr2gyNJ4hJjIHMLiaLUHkir+YdZGTGyl/995r3esMmRThRdKKz2HtM2oshjG55YqLYXwNNoqOL0ISJghWtnVoytlmxJbawLsuhkLC1qAMlj45hJzv1UGVQ6Mozx8UdJeTe3OEJmVzKrCJ/YY6wv40mEf46fwMwDwx5XTMUh6oaPqKpLoK/AAAA[0m[Pipeline] sh
++ mvn -Pselenium test
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------------< pl.pandait:panda >--------------------------
+[INFO] Building panda 0.0.1
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ panda ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/workspace/deploy_to_aws/src/main/resources
+[INFO] skip non existing resourceDirectory /home/workspace/deploy_to_aws/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ panda ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default) @ panda ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ panda ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/workspace/deploy_to_aws/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ panda ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ panda ---
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default) @ panda ---
+[INFO] Skipping execution of surefire because it has already been run for this configuration
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.707 s
+[INFO] Finished at: 2021-11-26T22:59:19Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4MjO88kX52KSTc/FZ+XtKL0w905acNrcPKYCJj7sUtF/AAAApB+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxGkZBwr2gyNJ4ghxkBmF5NFqDyRV/MOZmTGyl/995r3esMmBjhRsKI3ODiM2onRTzY9MVMYrp5m0dNFaMJI3ojWzC11plmxJTawLsuhkLA1qD1Fh5ZhJ3v1UKVXaMszh+SOEnLX3eEJmUxlVoG/sATY36YuEv46fwOwjCNDUR0qhryuP5Jn9ia/AAAA[0m[Pipeline] }
+[8mha:////4OJH75wb6vE5Fump2p2fZcLFgGWiC03vGDpkU2YEjGGZAAAApR+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxHUSoexss3QeIJIYgxkdjFZhMoTeTXvYEZmrPzVf695rzcsYoAjBStag53D2DjR+8GmJ0YK3dXTKFq6iIYwkjeiNmNN2pxmrIkNzMtyKCQsDTaeokPLsJKteqjSK7TlmUNylYTc6Ts8IZOpzCrwF6YA69ugI+Gv8zcAU98zFNvNjiE/7D+qJWXXvwAAAA==[0m[Pipeline] // withEnv
+[8mha:////4HSCV4/d9ptDEcoHcvn5NsUXwHH7sFNpvZV24bdCJxeRAAAApR+LCAAAAAAAAP9tjTESgjAQRZcwFraWHiLoUDkOlW2GxhPEEGMgs4vJIlSeyKt5BxmZsfJX/73mvd6wShEqik62FjuPyXjZh8HNT44Uu2ugUbZ0kYYwUbCytmNNjT0tWBNbWJYJyBWsLZpAyaNj2KhWP3QRNLrizHF2RwXCN3d4QqbmMuvIX5gibG9Dkwh/nb8BmPqeId/vSgZxKD+HL+uLvwAAAA==[0m[Pipeline] }
+[8mha:////4JFrRPdSN87T2OWqfh9/aG01nk93/KtrwLDqxTtUORapAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDiAZFVLRWGl5gYmOcWHfBvpBUvIiv8QcsIlGx1c4083rDIgY4UrCiNdg5jI0TvR9semKk0F09jaKli2gII3kjajPWpM1pxprYwLwsh0LC0mDjKTq0DCvZqocqvUJbnjkkV0nInb7DEzKZyqwCf2EKsL4NOhL+On8DMPU9Q7Hd7Bnyw+4DqS/p4b8AAAA=[0m[Pipeline] // stage
+[8mha:////4Mbr5+IpusBJBmdF6C04MyYBP1/xIYUymSk0wZM+YqgpAAAAqR+LCAAAAAAAAP9tjbEOgjAURR8QBldHP6KoiS7EybVh8Qsq1Fpo3sP2YZn8In/NfxAlcfJO99zk5jxfkAcPB/JGtBo7i6G2oneDmZqI5LuLoyhaOouaMJDTotKxokYfZ6yINcxJUsgkLDTWjoJFw7CUrbqrwik0xYn9tJUSUtvc4AGJnMysPH9h9LC6Dk0g/Hn+CmDsGdLtniHbrHefa/4GWarLzsMAAAA=[0m[Pipeline] stage
+[8mha:////4EqQGRM1G3A4oOawPRgChiJVlmXH9fXm3XzAtYRyEfBKAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BApDLCgTqxRF04QkhCSRv+XJKWdOBFX4w6UVmLCg2Vbst7rDWUMUFMwzGlsLUZpWed7MyU2UGivngbm6MIkYSSvWaOHhpQ+LbWhpGFRlkPBYaVReooWTYI1d+IhKi/QVOcUpu3IIbfqDk/I+EROIqS5jAE2t15Fwh/nLwDGLkGx2+5nP3y/5QeNKyY7xAAAAA==[0m[Pipeline] { (Test installation)
+[8mha:////4FtMT/meCKODOJX22NXyz3baEyXbivFtYslBB+iSwvyZAAAApR+LCAAAAAAAAP9tjTESwiAURH+SsbC19BBEGy2cVLZMGk+AgAhh/o9AJJUn8mrewUwyY+UWO/u2ee8PrGKAhoJhTmNnMUrLej+YabFMobt5yszRlUnCSF6zVueWlD4v2FLSsKQooeKw1ig9RYsmwYY78RS1F2jqSwrTd+JQWvWAFxR8MicR0gxjgO19UJHw5/krgLFPUO13h7mP/Rf0TcntwAAAAA==[0m[Pipeline] tool
+[8mha:////4PDXx5Wk13OnP5k/IdNI5yjFPyQ0hpmnD5dTHliM5yL/AAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDDUJCqWitNLzA2MbYse6C7eBUvIiv8QeiRKJii9XONvP+wCoGaCgY5jR2FqO0rPeDmRbLFLqbp8wcXZkkjOQ1a3VuSenzgi0lDUuKEioOa43SU7RoEmy4E09Re4GmvqQwfScOpVUPeEHBJ3MSIc0wBtjeBxUJf56/Ahj7BNV+d5j72H8BO1FRasAAAAA=[0m[Pipeline] envVarsForTool
+[8mha:////4AEI9aX0ex5r4VWwLnfnmXI0gSzlf9u8F9kPEq6yxtoPAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDDRJCqWitNLzA2MbYse6C7eBUvIiv8QeiRKJii9XONvP+wCoGaCgY5jR2FqO0rPeDmRbLFLqbp8wcXZkkjOQ1a3VuSenzgi0lDUuKEioOa43SU7RoEmy4E09Re4GmvqQwfScOpVUPeEHBJ3MSIc0wBtjeBxUJf56/Ahj7BNV+d5j72H8BemBKc8AAAAA=[0m[Pipeline] tool
+[8mha:////4KB4luEiZ9yz/3N4zJgPfZJCZVnEhVodtxj5U4aTXdZLAAAApR+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxGgsXGsbDM0niCSGAOZXUwWofJEXs07GGXGyl/8+e837/mCVQxwoGBFZ7B3GFsnBj/atMREob94mkRHZ9ESRvJGNGZqSJvjgg2xgSVZDoWEtcHWU3RoGTayU3dVeoW2PHFI315C7vQNHpDJZGYV+AtzgO111JHw5/krgHlgKOpq9+m6Gt4EsUqjwAAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4PFKkWgwIWoTbpG0Kkqom7psDAOkjRjObNfJ0eje1PORAAAAqB+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkSxi4txYm1YfIJaai00/49tESafyFfzHSySOHnD5e6Sy/d6Qxk8nMgb1mnsLQZl2eBGkxKbyPdXRxPr6MIUYSCnWaOnhlpdr7WhqGFVlkMhYKNROQoWTYSt6ORDVk6iqc7Rp+0oILftHZ6QiUSO0sdvmT3sbmMbCH+cvwCYhwgF3x8W53z5lh9xwsr3xAAAAA==[0m[Pipeline] withEnv
+[8mha:////4LTycXoAtWrysjRHQOaY+kU4i2xSHgddgvPVbi99K/y+AAAApx+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BCpwoqYWKMunCA0ISSN/i9JSjtxIq7GHQitxIQHy7Zkvdcb6hjgSMEwp7G3GDvLBj+anNhEob96mpijC+sII3nNWj21pPRprS0lDauKEioBG42dp2jRJNgKJx+y8RJNc04hbwcBpVV3eEIhMjnJkJYyB9jdRhUJf5y/AJiHBBXnfPH991t/ANWAUNjEAAAA[0m[Pipeline] {
+[8mha:////4L7p3HC9FFRKSp1GpzcG/ISE6B5005r1cnTxmS7h30zJAAAApB+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjQImo0lppeIGJjbFj3RnbIal4EV/jD1iJRMUWq51t5v2BTQxwpqCZVTgYjL1h3o06LzZRGG6OJmbpynrCSE6xTk0dSdWu2FFSsKYooeKwVdg7igZ1gh234ilqJ1DXlxTyd+JQGvmAFxQ8m5MIaYE5wP4+ykj48/wVwOwTVE1zWProv374VhvAAAAA[0m[Pipeline] sh
++ terraform --version
+Terraform v1.1.0-alpha20211029
+on linux_amd64
+[8mha:////4Iok/stcud22S53lXeeyrjoLIzjen0K7biH41y9hgvPUAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjIDpEldZKwwtMbIwd687YDknFi/gaf8BKJCq2WO1sM+8PbGKAMwXNrMLBYOwN827UebGJwnBzNDFLV9YTRnKKdWrqSKp2xY6SgjVFCRWHrcLeUTSoE+y4FU9RO4G6vqSQvxOH0sgHvKDg2ZxESAvMAfb3UUbCn+evAGafoGqaw9JH/wW5bhdUwAAAAA==[0m[Pipeline] sh
++ ansible --version
+ansible 2.9.27
+  config file = /etc/ansible/ansible.cfg
+  configured module search path = [u'/root/.ansible/plugins/modules', u'/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/lib/python2.7/dist-packages/ansible
+  executable location = /usr/bin/ansible
+  python version = 2.7.17 (default, Feb 27 2021, 15:10:58) [GCC 7.5.0]
+[8mha:////4EOdU6aoQx0zHQj0c3QUX6lSoNT5sSbWl3Kzn9hGT0qrAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjIFEhqrRWGl5gYmPsWHfGdkgqXsTX+ANWIlGxxWpnm3l/YBMDnCloZhUOBmNvmHejzotNFIabo4lZurKeMJJTrFNTR1K1K3aUFKwpSqg4bBX2jqJBnWDHrXiK2gnU9SWF/J04lEY+4AUFz+YkQlpgDrC/jzIS/jx/BTB7n6BqmuPShy9aImFCwAAAAA==[0m[Pipeline] }
+[8mha:////4BlD7LlFJyW13qTQL8c+fbnLdeidFjJxUJ1u+6E2NUbMAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjNDSIitZKwwtMYowd686cHZKKF/E1/oCVSFRssdrZZt4f2ESGE7ERTuNgMXZWBD+avMREPNw8TcLRVXSEkbwWrZ5a6vV5xZaShjVFCZWErcbOU7RoEuykU09Ve4WmviTO31FCafsHvKCQ2ZwUpwVmhv197CPhz/NXAHMICaqmOSzdfAF9aYDqwAAAAA==[0m[Pipeline] // withEnv
+[8mha:////4EE0tHLS5jbXN/s3a9Sw83Fn9iLJxDApD+LEh6A4ogr6AAAAph+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxGk0cKxss3QeIIIMSZkdmOyCJUn8mreQZQZK3/x57/fvOcLFinCgaIRTmNnMTVWBN+baYmBYnfxNAhHZ9EQJvJa1HqoqdXHGWtiDXOyHAoJS42Np2TRMKykU3dVeoWmPHGcvr2E3LY3eEAmJzOryF8YI6yvfZsIf56/AhhDYCiqavfpzfYNK8aIy8AAAAA=[0m[Pipeline] }
+[8mha:////4GJyfOcGVHrdsgh1L2fF7pSmvBjgHC/uEQFMJWb1T0YvAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYRDCiQkREVrpeEFJjHGjnVn7AtJxYv4Gn8gEImKLVY728zzBYsU4UDRCKexs5gaK4LvzbTEQLG7eBqEo7NoCBN5LWo91NTq44w1sYY5WQ6FhKXGxlOyaBhW0qm7Kr1CU544Tt9eQm7bGzwgk5OZVeQvjBHW175NhD/PXwGMITAUVbX79Gb7BnjnyaTAAAAA[0m[Pipeline] // stage
+[8mha:////4J5PVrQKzOodOT92oT4XB8OOdRFaAdM47qN40kzBDUrGAAAAqR+LCAAAAAAAAP9tjbEOgjAURR8QBldHP6IEBxNjmFybLn5BhVoLzXvYPoTJL/LX/AdREifvdM9Nbs7zBXkMUFGwojXYOYy1E70f7NzESKG7eBpFS2dRE0byRigzKmrMcUFFbGBJkkImYWWw9hQdWoa1bPVdF16jLU4c5u0gIXXNDR6QyNnMOvAXpgCb69BEwp/nrwCmniHd7hiystx/rvkblmF+H8MAAAA=[0m[Pipeline] stage
+[8mha:////4MdTYZnOoKoJp56OabAuor/JIHJUaHIj8kKlkZtGlSPhAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BApZUOIiTXqwglCG0LS6P+SpKQTJ+Jq3IGUSkx4sGxL1nu9ofQOjuQUMxJ7jb7VbLCjSolFcv3VUmSGLqwl9GQla2RsqJOnpTYUJCzKcig4rCS2lrxGFWDNjXiIygpU1Tm4tB045Lq7wxMynshBuPAtk4PNbew84Y/zFwDTEKCo6/3su+38LT+9TXyixAAAAA==[0m[Pipeline] { (Run terraform)
+[8mha:////4A0ZLjHFYP7IPlPZLjcCtdX93fUl7Owi8TEyV8ieRVdmAAAApB+LCAAAAAAAAP9tjTESgjAQRRcYC1tLD7GIrWNFm0njCWKIMZDZxSQIlSfyat5BBmas/MWf/37z3h/YxABnDhZbQ52jqB32frDzwpFDd/M8YstX1EyRvUFpRsmNqVeUnAysyXIoBGwNac/RkU2wE616qtIrsuUlhfk7Cchd84AXZGI2JxXSAlOA/X1oItPP81cAU5+gqI6Hpav+Cx0fjlDAAAAA[0m[Pipeline] tool
+[8mha:////4DpvhQYw7lTgnzq9z35npwCmQle9QrHcfK7dvUrRHItiAAAApB+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxGU1rGizaTxBDHEGMjs4iYIlSfyat5BBmas/MWf/37z3h/YRIYzsROtxc5jNF70YXDzEiNxdws0ipauwhBGClYoOypqbL2iomRhTZZDIWFr0QSKHl2CnWz1U5dBoysviefvJCH3zQNekMnZnDSnBSaG/X1oIuHP81cAU5+gOFaHpav+C95Mo3vAAAAA[0m[Pipeline] envVarsForTool
+[8mha:////4FVUimpa5pTeCNKL8OBpENOB92oJgKHsgr/YwIzPccBSAAAApR+LCAAAAAAAAP9tjTsOwjAQRDeJKGgpOYTDp0SpaK00nMDYxtixdoPt4FSciKtxB6JEomKK0bxp3vsDqxigoWCY09hZjNKy3g9mWixT6G6eMnN0ZZIwktes1bklpc8LtpQ0LClKqDisNUpP0aJJsOFOPEXtBZr6ksL0nTiUVj3gBQWfzEmENMMYYHsfVCT8ef4KYOwTVPvDbu5j/wWffbhiwAAAAA==[0m[Pipeline] tool
+[8mha:////4ImDJB5EcxQcptO6WHynmwEiBjpmnh4bTE0w5BvuGMy6AAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDiA6lorXS8AJjG2PHugu2g1PxIr7GH4gSiYotVjvbzPsDqxigoWCY09hZjNKy3g9mWixT6G6eMnN0ZZIwktes1bklpc8LtpQ0LClKqDisNUpP0aJJsOFOPEXtBZr6ksL0nTiUVj3gBQWfzEmENMMYYHsfVCT8ef4KYOwTVPvDbu5j/wVY6/ktwAAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4GRM9R0rhaOfzDLuUYSlENdODgikzPjCckJbWNC9xoZ4AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BApIDGhTqxRF04QkhCSRv+XJKWdOBFX4w6UVmLCg2Vbst7rDWUMUFMwzGlsLUZpWed7MyU2UGivngbm6MIkYSSvWaOHhpQ+LbWhpGFRlkPBYaVReooWTYI1d+IhKi/QVOcUpu3IIbfqDk/I+EROIqS5jAE2t15Fwh/nLwDGLkGx229nP3y/5QdRitLSxAAAAA==[0m[Pipeline] withEnv
+[8mha:////4LkMhcw2O3+TZuhvPaiid15hGQzNrSUTaJinUsX6SZPyAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BCpQIIFdWKNunCCkISQNPq/JCntxIm4GnegtBITHizbkvVebyhjgJqCYU5jazFKyzrfmymxgUJ79TQwRxcmCSN5zRo9NKT0aakNJQ2LshwKDiuN0lO0aBKsuRMPUXmBpjqnMG1HDrlVd3hCxidyEiHNZQywufUqEv44fwEwdgmK7W4/++H7LT/vj+XMxAAAAA==[0m[Pipeline] {
+[8mha:////4BfqhE5u+G/II6H+BAZpgdMSMnSFbQlmZxZNkskehTo0AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BCpYIABdWKNunCCkISQNPq/JCntxIm4GnegtBITHizbkvVebyhjgJqCYU5jazFKyzrfmymxgUJ79TQwRxcmCSN5zRo9NKT0aakNJQ2LshwKDiuN0lO0aBKsuRMPUXmBpjqnMG1HDrlVd3hCxidyEiHNZQywufUqEv44fwEwdgmK7W4/++H7LT+6jidwxAAAAA==[0m[Pipeline] dir
+Running in /home/workspace/deploy_to_aws/infrastructure/terraform
+[8mha:////4LA2dxvyAxtv/+SeaA7oxOFhvb9GD2wz8kpka9v6hTPRAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BCpYAEJdWKNunCCkISQNPq/JCntxIm4GnegtBITHizbkvVebyhjgJqCYU5jazFKyzrfmymxgUJ79TQwRxcmCSN5zRo9NKT0aakNJQ2LshwKDiuN0lO0aBKsuRMPUXmBpjqnMG1HDrlVd3hCxidyEiHNZQywufUqEv44fwEwdgmK7W4/++H7LT8AcNQaxAAAAA==[0m[Pipeline] {
+[8mha:////4Ljy8/pSZ360kfNWi0T7JVKz5LCwljIjjBRWdAd4yDYUAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BCpYAKhTqxRF04QkhCSRv+XJKWdOBFX4w6UVmLCg2Vbst7rDWUMUFMwzGlsLUZpWed7MyU2UGivngbm6MIkYSSvWaOHhpQ+LbWhpGFRlkPBYaVReooWTYI1d+IhKi/QVOcUpu3IIbfqDk/I+EROIqS5jAE2t15Fwh/nLwDGLkGx3e1nP3y/5QfUPByjxAAAAA==[0m[Pipeline] withCredentials
+Masking supported pattern matches of $terraformpanda
+[8mha:////4O+jjdaAtYivg5jF9C3gbCIuPBQszlZB7BEWupu8wU2BAAAAqR+LCAAAAAAAAP9tjT0OwjAUg19bdWBl5BApPxNCTKxRFk4Q0hDSRu+VJCWdOBFX4w60VGLCg2Vbsr7XG8rg4UjesEZjazEoyzrXmzGxRL69OkqsoQtThIGcZkInQbU+zVVQ1DAry6HgsNCoHAWLJsKSN/IhKyfRVOfox+3AIbf1HZ6Q8ZEcpY/fMnhY3fo6EP44fwEwdBGKzXY/+W49fcsPxyrBucQAAAA=[0m[Pipeline] {
+[8mha:////4P59fyL1Itkad+izXT8sWUwpawNFfS/weiXEs440JoVNAAAApB+LCAAAAAAAAP9tjTESgjAQRRcYC1tLD7HIWDpWtJk0niCGGAOZXUyCUHkir+YdZGDGyl/8+e837/2BTQxw5mCxNdQ5itph7wc7Lxw5dDfPI7Z8Rc0U2RuUZpTcmHpFycnAmiyHQsDWkPYcHdkEO9Gqpyq9IlteUpi/k4DcNQ94QSZmc1IhLTAF2N+HJjL9PH8FMPUJiup4WLrqv2lhN0bAAAAA[0m[Pipeline] sh
++ cp **** ../panda_kurs.pem
+[8mha:////4ERqIJHYAbdP7D3RAiPRETEoQ0qu1+TwAFwWh3jkvLBmAAAApR+LCAAAAAAAAP9tjTsOwjAQRDeJKGgpOYTDp0SpaK00nMDYxtixdoPt4FSciKtxB6JEomKK0bxp3vsDqxigoWCY09hZjNKy3g9mWixT6G6eMnN0ZZIwktes1bklpc8LtpQ0LClKqDisNUpP0aJJsOFOPEXtBZr6ksL0nTiUVj3gBQWfzEmENMMYYHsfVCT8ef4KYOwTVPvjbu5D/wWqMhptwAAAAA==[0m[Pipeline] sh
++ pwd
+/home/workspace/deploy_to_aws/infrastructure/terraform
+[8mha:////4CsPC38oK0Rz7nZrWlXOHjF1Js2GiSjN6NbyxpKHyawZAAAApB+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxF0KB0r2kwaTxBDjIHMLm6CUHkir+YdZGDGyl/8+e837/2BTWQ4EzvRWuw8RuNFHwY3LzESd7dAo2jpKgxhpGCFsqOixtYrKkoW1mQ5FBK2Fk2g6NEl2MlWP3UZNLryknj+ThJy3zzgBZmczUlzWmBi2N+HJhL+PH8FMPV9guJYVUsfvrMTrL/AAAAA[0m[Pipeline] }
+[8mha:////4HVlXoUfTn8VjtJkouvVZP3CkizaZRoPcwl0QzK+E3mDAAAApx+LCAAAAAAAAP9tjTsOwjAQRDeJKGgpOYQjPg1CVLSWG05gbGOcWLvBdkgqTsTVuAOGSFRMMZo3zXu+YBYDHChY1hhsHUblWOd7mxcbKLQXTwNr6MwUYSRvmDCDIG2OEwpKBqYUJVQc5gaVp+jQJljwRt5l7SXa+pRC/vYcSqdv8ICCZ3OSIX1hDLC89joS/jx/BTB2XYJqtdl+er17A9ikzBrAAAAA[0m[Pipeline] // withCredentials
+[8mha:////4IIVtRgayrXRpkymFxXlIPL1su/ESsGQ5s6dJ1kaOaKIAAAAqh+LCAAAAAAAAP9tjUEKwjAURH9bunDr0kOkqAiCuHIbsvEEMY0xbfi/JqnpyhN5Ne9ga8GVsxhmBob3ekMZPBzJG9ZobC0GZVnnejMmlsi3V0eJNXRhijCQ00zoJKjWp7kKihpmZTkUHBYalaNg0URY8kY+ZOUkmuoc/bgdOOS2vsMTMj6So/TxWwYPq1tfB8If5y8Ahi5Csd7sJ9/upm/5ARv3qXLEAAAA[0m[Pipeline] withCredentials
+Masking supported pattern matches of $AWS_ACCESS_KEY_ID or $AWS_SECRET_ACCESS_KEY
+[8mha:////4ES2PJMd8xUvzMv1jNQcpZNRKq6d18owwkh481gN3Ul8AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BCpEIIFdWKNunCCkISQNPq/JCntxIm4GnegtBITHizbkvVebyhjgJqCYU5jazFKyzrfmymxgUJ79TQwRxcmCSN5zRo9NKT0aakNJQ2LshwKDiuN0lO0aBKsuRMPUXmBpjqnMG1HDrlVd3hCxidyEiHNZQywufUqEv44fwEwdgmK7W4/++H7LT/eXQS3xAAAAA==[0m[Pipeline] {
+[8mha:////4OIVhfTFK+of8V1f/kSt1oRRf9HJXk2nQWwxBS/2SV0lAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjhAQFSkVrpeEFxjbGjnUXbAen4kV8jT8QJRIVW6x2tpn3B1YxQEPBMKexsxilZb0fzLRYptDdPGXm6MokYSSvWatzS0qfF2wpaVhSlFBxWGuUnqJFk2DDnXiK2gs09SWF6TtxKK16wAsKPpmTCGmGMcD2PqhI+PP8FcDYJ6h2+8Pcx/4LaM8C1sAAAAA=[0m[Pipeline] sh
++ terraform init
+
+[0m[1mInitializing the backend...[0m
+
+[0m[1mInitializing provider plugins...[0m
+- Finding hashicorp/aws versions matching "3.33.0"...
+- Finding latest version of hashicorp/local...
+- Installing hashicorp/aws v3.33.0...
+- Installed hashicorp/aws v3.33.0 (signed by HashiCorp)
+- Installing hashicorp/local v2.1.0...
+- Installed hashicorp/local v2.1.0 (signed by HashiCorp)
+
+Terraform has created a lock file [1m.terraform.lock.hcl[0m to record the provider
+selections it made above. Include this file in your version control repository
+so that Terraform can guarantee to make the same selections by default when
+you run "terraform init" in the future.[0m
+
+[0m[1m[32mTerraform has been successfully initialized![0m[32m[0m
+[0m[32m
+You may now begin working with Terraform. Try running "terraform plan" to see
+any changes that are required for your infrastructure. All Terraform commands
+should now work.
+
+If you ever set or change modules or backend configuration for Terraform,
+rerun this command to reinitialize your working directory. If you forget, other
+commands will detect it and remind you to do so if necessary.[0m
++ terraform apply -auto-approve -var-file panda.tfvars
+
+Terraform used the selected providers to generate the following execution
+plan. Resource actions are indicated with the following symbols:
+  [32m+[0m create
+[0m
+Terraform will perform the following actions:
+
+[1m  # aws_instance.panda[0][0m will be created[0m[0m
+[0m  [32m+[0m[0m resource "aws_instance" "panda" {
+      [32m+[0m [0m[1m[0mami[0m[0m                          = "ami-09e67e426f25ce0d7"
+      [32m+[0m [0m[1m[0marn[0m[0m                          = (known after apply)
+      [32m+[0m [0m[1m[0massociate_public_ip_address[0m[0m  = (known after apply)
+      [32m+[0m [0m[1m[0mavailability_zone[0m[0m            = "us-east-1a"
+      [32m+[0m [0m[1m[0mcpu_core_count[0m[0m               = (known after apply)
+      [32m+[0m [0m[1m[0mcpu_threads_per_core[0m[0m         = (known after apply)
+      [32m+[0m [0m[1m[0mget_password_data[0m[0m            = false
+      [32m+[0m [0m[1m[0mhost_id[0m[0m                      = (known after apply)
+      [32m+[0m [0m[1m[0mid[0m[0m                           = (known after apply)
+      [32m+[0m [0m[1m[0minstance_state[0m[0m               = (known after apply)
+      [32m+[0m [0m[1m[0minstance_type[0m[0m                = "t2.micro"
+      [32m+[0m [0m[1m[0mipv6_address_count[0m[0m           = (known after apply)
+      [32m+[0m [0m[1m[0mipv6_addresses[0m[0m               = (known after apply)
+      [32m+[0m [0m[1m[0mkey_name[0m[0m                     = "panda_kurs"
+      [32m+[0m [0m[1m[0moutpost_arn[0m[0m                  = (known after apply)
+      [32m+[0m [0m[1m[0mpassword_data[0m[0m                = (known after apply)
+      [32m+[0m [0m[1m[0mplacement_group[0m[0m              = (known after apply)
+      [32m+[0m [0m[1m[0mprimary_network_interface_id[0m[0m = (known after apply)
+      [32m+[0m [0m[1m[0mprivate_dns[0m[0m                  = (known after apply)
+      [32m+[0m [0m[1m[0mprivate_ip[0m[0m                   = (known after apply)
+      [32m+[0m [0m[1m[0mpublic_dns[0m[0m                   = (known after apply)
+      [32m+[0m [0m[1m[0mpublic_ip[0m[0m                    = (known after apply)
+      [32m+[0m [0m[1m[0msecondary_private_ips[0m[0m        = (known after apply)
+      [32m+[0m [0m[1m[0msecurity_groups[0m[0m              = (known after apply)
+      [32m+[0m [0m[1m[0msource_dest_check[0m[0m            = true
+      [32m+[0m [0m[1m[0msubnet_id[0m[0m                    = (known after apply)
+      [32m+[0m [0m[1m[0mtenancy[0m[0m                      = (known after apply)
+      [32m+[0m [0m[1m[0mvpc_security_group_ids[0m[0m       = (known after apply)
+
+      [32m+[0m [0mebs_block_device {
+          [32m+[0m [0m[1m[0mdelete_on_termination[0m[0m = (known after apply)
+          [32m+[0m [0m[1m[0mdevice_name[0m[0m           = (known after apply)
+          [32m+[0m [0m[1m[0mencrypted[0m[0m             = (known after apply)
+          [32m+[0m [0m[1m[0miops[0m[0m                  = (known after apply)
+          [32m+[0m [0m[1m[0mkms_key_id[0m[0m            = (known after apply)
+          [32m+[0m [0m[1m[0msnapshot_id[0m[0m           = (known after apply)
+          [32m+[0m [0m[1m[0mtags[0m[0m                  = (known after apply)
+          [32m+[0m [0m[1m[0mthroughput[0m[0m            = (known after apply)
+          [32m+[0m [0m[1m[0mvolume_id[0m[0m             = (known after apply)
+          [32m+[0m [0m[1m[0mvolume_size[0m[0m           = (known after apply)
+          [32m+[0m [0m[1m[0mvolume_type[0m[0m           = (known after apply)
+        }
+
+      [32m+[0m [0menclave_options {
+          [32m+[0m [0m[1m[0menabled[0m[0m = (known after apply)
+        }
+
+      [32m+[0m [0mephemeral_block_device {
+          [32m+[0m [0m[1m[0mdevice_name[0m[0m  = (known after apply)
+          [32m+[0m [0m[1m[0mno_device[0m[0m    = (known after apply)
+          [32m+[0m [0m[1m[0mvirtual_name[0m[0m = (known after apply)
+        }
+
+      [32m+[0m [0mmetadata_options {
+          [32m+[0m [0m[1m[0mhttp_endpoint[0m[0m               = (known after apply)
+          [32m+[0m [0m[1m[0mhttp_put_response_hop_limit[0m[0m = (known after apply)
+          [32m+[0m [0m[1m[0mhttp_tokens[0m[0m                 = (known after apply)
+        }
+
+      [32m+[0m [0mnetwork_interface {
+          [32m+[0m [0m[1m[0mdelete_on_termination[0m[0m = (known after apply)
+          [32m+[0m [0m[1m[0mdevice_index[0m[0m          = (known after apply)
+          [32m+[0m [0m[1m[0mnetwork_interface_id[0m[0m  = (known after apply)
+        }
+
+      [32m+[0m [0mroot_block_device {
+          [32m+[0m [0m[1m[0mdelete_on_termination[0m[0m = (known after apply)
+          [32m+[0m [0m[1m[0mdevice_name[0m[0m           = (known after apply)
+          [32m+[0m [0m[1m[0mencrypted[0m[0m             = (known after apply)
+          [32m+[0m [0m[1m[0miops[0m[0m                  = (known after apply)
+          [32m+[0m [0m[1m[0mkms_key_id[0m[0m            = (known after apply)
+          [32m+[0m [0m[1m[0mtags[0m[0m                  = (known after apply)
+          [32m+[0m [0m[1m[0mthroughput[0m[0m            = (known after apply)
+          [32m+[0m [0m[1m[0mvolume_id[0m[0m             = (known after apply)
+          [32m+[0m [0m[1m[0mvolume_size[0m[0m           = (known after apply)
+          [32m+[0m [0m[1m[0mvolume_type[0m[0m           = (known after apply)
+        }
+    }
+
+[1m  # aws_instance.panda[1][0m will be created[0m[0m
+[0m  [32m+[0m[0m resource "aws_instance" "panda" {
+      [32m+[0m [0m[1m[0mami[0m[0m                          = "ami-09e67e426f25ce0d7"
+      [32m+[0m [0m[1m[0marn[0m[0m                          = (known after apply)
+      [32m+[0m [0m[1m[0massociate_public_ip_address[0m[0m  = (known after apply)
+      [32m+[0m [0m[1m[0mavailability_zone[0m[0m            = "us-east-1b"
+      [32m+[0m [0m[1m[0mcpu_core_count[0m[0m               = (known after apply)
+      [32m+[0m [0m[1m[0mcpu_threads_per_core[0m[0m         = (known after apply)
+      [32m+[0m [0m[1m[0mget_password_data[0m[0m            = false
+      [32m+[0m [0m[1m[0mhost_id[0m[0m                      = (known after apply)
+      [32m+[0m [0m[1m[0mid[0m[0m                           = (known after apply)
+      [32m+[0m [0m[1m[0minstance_state[0m[0m               = (known after apply)
+      [32m+[0m [0m[1m[0minstance_type[0m[0m                = "t2.micro"
+      [32m+[0m [0m[1m[0mipv6_address_count[0m[0m           = (known after apply)
+      [32m+[0m [0m[1m[0mipv6_addresses[0m[0m               = (known after apply)
+      [32m+[0m [0m[1m[0mkey_name[0m[0m                     = "panda_kurs"
+      [32m+[0m [0m[1m[0moutpost_arn[0m[0m                  = (known after apply)
+      [32m+[0m [0m[1m[0mpassword_data[0m[0m                = (known after apply)
+      [32m+[0m [0m[1m[0mplacement_group[0m[0m              = (known after apply)
+      [32m+[0m [0m[1m[0mprimary_network_interface_id[0m[0m = (known after apply)
+      [32m+[0m [0m[1m[0mprivate_dns[0m[0m                  = (known after apply)
+      [32m+[0m [0m[1m[0mprivate_ip[0m[0m                   = (known after apply)
+      [32m+[0m [0m[1m[0mpublic_dns[0m[0m                   = (known after apply)
+      [32m+[0m [0m[1m[0mpublic_ip[0m[0m                    = (known after apply)
+      [32m+[0m [0m[1m[0msecondary_private_ips[0m[0m        = (known after apply)
+      [32m+[0m [0m[1m[0msecurity_groups[0m[0m              = (known after apply)
+      [32m+[0m [0m[1m[0msource_dest_check[0m[0m            = true
+      [32m+[0m [0m[1m[0msubnet_id[0m[0m                    = (known after apply)
+      [32m+[0m [0m[1m[0mtenancy[0m[0m                      = (known after apply)
+      [32m+[0m [0m[1m[0mvpc_security_group_ids[0m[0m       = (known after apply)
+
+      [32m+[0m [0mebs_block_device {
+          [32m+[0m [0m[1m[0mdelete_on_termination[0m[0m = (known after apply)
+          [32m+[0m [0m[1m[0mdevice_name[0m[0m           = (known after apply)
+          [32m+[0m [0m[1m[0mencrypted[0m[0m             = (known after apply)
+          [32m+[0m [0m[1m[0miops[0m[0m                  = (known after apply)
+          [32m+[0m [0m[1m[0mkms_key_id[0m[0m            = (known after apply)
+          [32m+[0m [0m[1m[0msnapshot_id[0m[0m           = (known after apply)
+          [32m+[0m [0m[1m[0mtags[0m[0m                  = (known after apply)
+          [32m+[0m [0m[1m[0mthroughput[0m[0m            = (known after apply)
+          [32m+[0m [0m[1m[0mvolume_id[0m[0m             = (known after apply)
+          [32m+[0m [0m[1m[0mvolume_size[0m[0m           = (known after apply)
+          [32m+[0m [0m[1m[0mvolume_type[0m[0m           = (known after apply)
+        }
+
+      [32m+[0m [0menclave_options {
+          [32m+[0m [0m[1m[0menabled[0m[0m = (known after apply)
+        }
+
+      [32m+[0m [0mephemeral_block_device {
+          [32m+[0m [0m[1m[0mdevice_name[0m[0m  = (known after apply)
+          [32m+[0m [0m[1m[0mno_device[0m[0m    = (known after apply)
+          [32m+[0m [0m[1m[0mvirtual_name[0m[0m = (known after apply)
+        }
+
+      [32m+[0m [0mmetadata_options {
+          [32m+[0m [0m[1m[0mhttp_endpoint[0m[0m               = (known after apply)
+          [32m+[0m [0m[1m[0mhttp_put_response_hop_limit[0m[0m = (known after apply)
+          [32m+[0m [0m[1m[0mhttp_tokens[0m[0m                 = (known after apply)
+        }
+
+      [32m+[0m [0mnetwork_interface {
+          [32m+[0m [0m[1m[0mdelete_on_termination[0m[0m = (known after apply)
+          [32m+[0m [0m[1m[0mdevice_index[0m[0m          = (known after apply)
+          [32m+[0m [0m[1m[0mnetwork_interface_id[0m[0m  = (known after apply)
+        }
+
+      [32m+[0m [0mroot_block_device {
+          [32m+[0m [0m[1m[0mdelete_on_termination[0m[0m = (known after apply)
+          [32m+[0m [0m[1m[0mdevice_name[0m[0m           = (known after apply)
+          [32m+[0m [0m[1m[0mencrypted[0m[0m             = (known after apply)
+          [32m+[0m [0m[1m[0miops[0m[0m                  = (known after apply)
+          [32m+[0m [0m[1m[0mkms_key_id[0m[0m            = (known after apply)
+          [32m+[0m [0m[1m[0mtags[0m[0m                  = (known after apply)
+          [32m+[0m [0m[1m[0mthroughput[0m[0m            = (known after apply)
+          [32m+[0m [0m[1m[0mvolume_id[0m[0m             = (known after apply)
+          [32m+[0m [0m[1m[0mvolume_size[0m[0m           = (known after apply)
+          [32m+[0m [0m[1m[0mvolume_type[0m[0m           = (known after apply)
+        }
+    }
+
+[1m  # aws_internet_gateway.internet_gateway[0m will be created[0m[0m
+[0m  [32m+[0m[0m resource "aws_internet_gateway" "internet_gateway" {
+      [32m+[0m [0m[1m[0marn[0m[0m      = (known after apply)
+      [32m+[0m [0m[1m[0mid[0m[0m       = (known after apply)
+      [32m+[0m [0m[1m[0mowner_id[0m[0m = (known after apply)
+      [32m+[0m [0m[1m[0mvpc_id[0m[0m   = (known after apply)
+    }
+
+[1m  # aws_lb.alb[0m will be created[0m[0m
+[0m  [32m+[0m[0m resource "aws_lb" "alb" {
+      [32m+[0m [0m[1m[0marn[0m[0m                        = (known after apply)
+      [32m+[0m [0m[1m[0marn_suffix[0m[0m                 = (known after apply)
+      [32m+[0m [0m[1m[0mdns_name[0m[0m                   = (known after apply)
+      [32m+[0m [0m[1m[0mdrop_invalid_header_fields[0m[0m = false
+      [32m+[0m [0m[1m[0menable_deletion_protection[0m[0m = false
+      [32m+[0m [0m[1m[0menable_http2[0m[0m               = true
+      [32m+[0m [0m[1m[0mid[0m[0m                         = (known after apply)
+      [32m+[0m [0m[1m[0midle_timeout[0m[0m               = 60
+      [32m+[0m [0m[1m[0minternal[0m[0m                   = false
+      [32m+[0m [0m[1m[0mip_address_type[0m[0m            = (known after apply)
+      [32m+[0m [0m[1m[0mload_balancer_type[0m[0m         = "application"
+      [32m+[0m [0m[1m[0mname[0m[0m                       = "alb"
+      [32m+[0m [0m[1m[0msecurity_groups[0m[0m            = (known after apply)
+      [32m+[0m [0m[1m[0msubnets[0m[0m                    = (known after apply)
+      [32m+[0m [0m[1m[0mvpc_id[0m[0m                     = (known after apply)
+      [32m+[0m [0m[1m[0mzone_id[0m[0m                    = (known after apply)
+
+      [32m+[0m [0msubnet_mapping {
+          [32m+[0m [0m[1m[0mallocation_id[0m[0m        = (known after apply)
+          [32m+[0m [0m[1m[0mipv6_address[0m[0m         = (known after apply)
+          [32m+[0m [0m[1m[0moutpost_id[0m[0m           = (known after apply)
+          [32m+[0m [0m[1m[0mprivate_ipv4_address[0m[0m = (known after apply)
+          [32m+[0m [0m[1m[0msubnet_id[0m[0m            = (known after apply)
+        }
+    }
+
+[1m  # aws_lb_listener.alb-listener[0m will be created[0m[0m
+[0m  [32m+[0m[0m resource "aws_lb_listener" "alb-listener" {
+      [32m+[0m [0m[1m[0marn[0m[0m               = (known after apply)
+      [32m+[0m [0m[1m[0mid[0m[0m                = (known after apply)
+      [32m+[0m [0m[1m[0mload_balancer_arn[0m[0m = (known after apply)
+      [32m+[0m [0m[1m[0mport[0m[0m              = 80
+      [32m+[0m [0m[1m[0mprotocol[0m[0m          = "HTTP"
+      [32m+[0m [0m[1m[0mssl_policy[0m[0m        = (known after apply)
+
+      [32m+[0m [0mdefault_action {
+          [32m+[0m [0m[1m[0morder[0m[0m            = (known after apply)
+          [32m+[0m [0m[1m[0mtarget_group_arn[0m[0m = (known after apply)
+          [32m+[0m [0m[1m[0mtype[0m[0m             = "forward"
+        }
+    }
+
+[1m  # aws_lb_target_group.tg[0m will be created[0m[0m
+[0m  [32m+[0m[0m resource "aws_lb_target_group" "tg" {
+      [32m+[0m [0m[1m[0marn[0m[0m                                = (known after apply)
+      [32m+[0m [0m[1m[0marn_suffix[0m[0m                         = (known after apply)
+      [32m+[0m [0m[1m[0mderegistration_delay[0m[0m               = 300
+      [32m+[0m [0m[1m[0mid[0m[0m                                 = (known after apply)
+      [32m+[0m [0m[1m[0mlambda_multi_value_headers_enabled[0m[0m = false
+      [32m+[0m [0m[1m[0mload_balancing_algorithm_type[0m[0m      = (known after apply)
+      [32m+[0m [0m[1m[0mname[0m[0m                               = "tg"
+      [32m+[0m [0m[1m[0mport[0m[0m                               = 8080
+      [32m+[0m [0m[1m[0mprotocol[0m[0m                           = "HTTP"
+      [32m+[0m [0m[1m[0mprotocol_version[0m[0m                   = (known after apply)
+      [32m+[0m [0m[1m[0mproxy_protocol_v2[0m[0m                  = false
+      [32m+[0m [0m[1m[0mslow_start[0m[0m                         = 0
+      [32m+[0m [0m[1m[0mtarget_type[0m[0m                        = "instance"
+      [32m+[0m [0m[1m[0mvpc_id[0m[0m                             = (known after apply)
+
+      [32m+[0m [0mhealth_check {
+          [32m+[0m [0m[1m[0menabled[0m[0m             = (known after apply)
+          [32m+[0m [0m[1m[0mhealthy_threshold[0m[0m   = (known after apply)
+          [32m+[0m [0m[1m[0minterval[0m[0m            = (known after apply)
+          [32m+[0m [0m[1m[0mmatcher[0m[0m             = (known after apply)
+          [32m+[0m [0m[1m[0mpath[0m[0m                = (known after apply)
+          [32m+[0m [0m[1m[0mport[0m[0m                = (known after apply)
+          [32m+[0m [0m[1m[0mprotocol[0m[0m            = (known after apply)
+          [32m+[0m [0m[1m[0mtimeout[0m[0m             = (known after apply)
+          [32m+[0m [0m[1m[0munhealthy_threshold[0m[0m = (known after apply)
+        }
+
+      [32m+[0m [0mstickiness {
+          [32m+[0m [0m[1m[0mcookie_duration[0m[0m = (known after apply)
+          [32m+[0m [0m[1m[0menabled[0m[0m         = (known after apply)
+          [32m+[0m [0m[1m[0mtype[0m[0m            = (known after apply)
+        }
+    }
+
+[1m  # aws_lb_target_group_attachment.tg-attch[0][0m will be created[0m[0m
+[0m  [32m+[0m[0m resource "aws_lb_target_group_attachment" "tg-attch" {
+      [32m+[0m [0m[1m[0mid[0m[0m               = (known after apply)
+      [32m+[0m [0m[1m[0mport[0m[0m             = 8080
+      [32m+[0m [0m[1m[0mtarget_group_arn[0m[0m = (known after apply)
+      [32m+[0m [0m[1m[0mtarget_id[0m[0m        = (known after apply)
+    }
+
+[1m  # aws_lb_target_group_attachment.tg-attch[1][0m will be created[0m[0m
+[0m  [32m+[0m[0m resource "aws_lb_target_group_attachment" "tg-attch" {
+      [32m+[0m [0m[1m[0mid[0m[0m               = (known after apply)
+      [32m+[0m [0m[1m[0mport[0m[0m             = 8080
+      [32m+[0m [0m[1m[0mtarget_group_arn[0m[0m = (known after apply)
+      [32m+[0m [0m[1m[0mtarget_id[0m[0m        = (known after apply)
+    }
+
+[1m  # aws_route_table.public_route_table[0m will be created[0m[0m
+[0m  [32m+[0m[0m resource "aws_route_table" "public_route_table" {
+      [32m+[0m [0m[1m[0mid[0m[0m               = (known after apply)
+      [32m+[0m [0m[1m[0mowner_id[0m[0m         = (known after apply)
+      [32m+[0m [0m[1m[0mpropagating_vgws[0m[0m = (known after apply)
+      [32m+[0m [0m[1m[0mroute[0m[0m            = [
+          [32m+[0m [0m{
+              [32m+[0m [0mcidr_block                = "0.0.0.0/0"
+              [32m+[0m [0megress_only_gateway_id    = ""
+              [32m+[0m [0mgateway_id                = (known after apply)
+              [32m+[0m [0minstance_id               = ""
+              [32m+[0m [0mipv6_cidr_block           = ""
+              [32m+[0m [0mlocal_gateway_id          = ""
+              [32m+[0m [0mnat_gateway_id            = ""
+              [32m+[0m [0mnetwork_interface_id      = ""
+              [32m+[0m [0mtransit_gateway_id        = ""
+              [32m+[0m [0mvpc_endpoint_id           = ""
+              [32m+[0m [0mvpc_peering_connection_id = ""
+            },
+        ]
+      [32m+[0m [0m[1m[0mtags[0m[0m             = {
+          [32m+[0m [0m"Name" = "rt-pub"
+        }
+      [32m+[0m [0m[1m[0mvpc_id[0m[0m           = (known after apply)
+    }
+
+[1m  # aws_route_table_association.public_route_table_association[0][0m will be created[0m[0m
+[0m  [32m+[0m[0m resource "aws_route_table_association" "public_route_table_association" {
+      [32m+[0m [0m[1m[0mid[0m[0m             = (known after apply)
+      [32m+[0m [0m[1m[0mroute_table_id[0m[0m = (known after apply)
+      [32m+[0m [0m[1m[0msubnet_id[0m[0m      = (known after apply)
+    }
+
+[1m  # aws_route_table_association.public_route_table_association[1][0m will be created[0m[0m
+[0m  [32m+[0m[0m resource "aws_route_table_association" "public_route_table_association" {
+      [32m+[0m [0m[1m[0mid[0m[0m             = (known after apply)
+      [32m+[0m [0m[1m[0mroute_table_id[0m[0m = (known after apply)
+      [32m+[0m [0m[1m[0msubnet_id[0m[0m      = (known after apply)
+    }
+
+[1m  # aws_security_group.sg-pub[0m will be created[0m[0m
+[0m  [32m+[0m[0m resource "aws_security_group" "sg-pub" {
+      [32m+[0m [0m[1m[0marn[0m[0m                    = (known after apply)
+      [32m+[0m [0m[1m[0mdescription[0m[0m            = "Managed by Terraform"
+      [32m+[0m [0m[1m[0megress[0m[0m                 = [
+          [32m+[0m [0m{
+              [32m+[0m [0mcidr_blocks      = [
+                  [32m+[0m [0m"0.0.0.0/0",
+                ]
+              [32m+[0m [0mdescription      = ""
+              [32m+[0m [0mfrom_port        = 0
+              [32m+[0m [0mipv6_cidr_blocks = []
+              [32m+[0m [0mprefix_list_ids  = []
+              [32m+[0m [0mprotocol         = "tcp"
+              [32m+[0m [0msecurity_groups  = []
+              [32m+[0m [0mself             = false
+              [32m+[0m [0mto_port          = 65535
+            },
+        ]
+      [32m+[0m [0m[1m[0mid[0m[0m                     = (known after apply)
+      [32m+[0m [0m[1m[0mingress[0m[0m                = [
+          [32m+[0m [0m{
+              [32m+[0m [0mcidr_blocks      = [
+                  [32m+[0m [0m"0.0.0.0/0",
+                ]
+              [32m+[0m [0mdescription      = ""
+              [32m+[0m [0mfrom_port        = 22
+              [32m+[0m [0mipv6_cidr_blocks = []
+              [32m+[0m [0mprefix_list_ids  = []
+              [32m+[0m [0mprotocol         = "tcp"
+              [32m+[0m [0msecurity_groups  = []
+              [32m+[0m [0mself             = false
+              [32m+[0m [0mto_port          = 22
+            },
+          [32m+[0m [0m{
+              [32m+[0m [0mcidr_blocks      = [
+                  [32m+[0m [0m"0.0.0.0/0",
+                ]
+              [32m+[0m [0mdescription      = ""
+              [32m+[0m [0mfrom_port        = 8080
+              [32m+[0m [0mipv6_cidr_blocks = []
+              [32m+[0m [0mprefix_list_ids  = []
+              [32m+[0m [0mprotocol         = "tcp"
+              [32m+[0m [0msecurity_groups  = []
+              [32m+[0m [0mself             = false
+              [32m+[0m [0mto_port          = 8080
+            },
+          [32m+[0m [0m{
+              [32m+[0m [0mcidr_blocks      = [
+                  [32m+[0m [0m"0.0.0.0/0",
+                ]
+              [32m+[0m [0mdescription      = ""
+              [32m+[0m [0mfrom_port        = 80
+              [32m+[0m [0mipv6_cidr_blocks = []
+              [32m+[0m [0mprefix_list_ids  = []
+              [32m+[0m [0mprotocol         = "tcp"
+              [32m+[0m [0msecurity_groups  = []
+              [32m+[0m [0mself             = false
+              [32m+[0m [0mto_port          = 80
+            },
+        ]
+      [32m+[0m [0m[1m[0mname[0m[0m                   = (known after apply)
+      [32m+[0m [0m[1m[0mname_prefix[0m[0m            = (known after apply)
+      [32m+[0m [0m[1m[0mowner_id[0m[0m               = (known after apply)
+      [32m+[0m [0m[1m[0mrevoke_rules_on_delete[0m[0m = false
+      [32m+[0m [0m[1m[0mvpc_id[0m[0m                 = (known after apply)
+    }
+
+[1m  # aws_subnet.pub_subnet[0][0m will be created[0m[0m
+[0m  [32m+[0m[0m resource "aws_subnet" "pub_subnet" {
+      [32m+[0m [0m[1m[0marn[0m[0m                             = (known after apply)
+      [32m+[0m [0m[1m[0massign_ipv6_address_on_creation[0m[0m = false
+      [32m+[0m [0m[1m[0mavailability_zone[0m[0m               = "us-east-1a"
+      [32m+[0m [0m[1m[0mavailability_zone_id[0m[0m            = (known after apply)
+      [32m+[0m [0m[1m[0mcidr_block[0m[0m                      = "10.83.0.0/24"
+      [32m+[0m [0m[1m[0mid[0m[0m                              = (known after apply)
+      [32m+[0m [0m[1m[0mipv6_cidr_block_association_id[0m[0m  = (known after apply)
+      [32m+[0m [0m[1m[0mmap_public_ip_on_launch[0m[0m         = true
+      [32m+[0m [0m[1m[0mowner_id[0m[0m                        = (known after apply)
+      [32m+[0m [0m[1m[0mtags_all[0m[0m                        = (known after apply)
+      [32m+[0m [0m[1m[0mvpc_id[0m[0m                          = (known after apply)
+    }
+
+[1m  # aws_subnet.pub_subnet[1][0m will be created[0m[0m
+[0m  [32m+[0m[0m resource "aws_subnet" "pub_subnet" {
+      [32m+[0m [0m[1m[0marn[0m[0m                             = (known after apply)
+      [32m+[0m [0m[1m[0massign_ipv6_address_on_creation[0m[0m = false
+      [32m+[0m [0m[1m[0mavailability_zone[0m[0m               = "us-east-1b"
+      [32m+[0m [0m[1m[0mavailability_zone_id[0m[0m            = (known after apply)
+      [32m+[0m [0m[1m[0mcidr_block[0m[0m                      = "10.83.1.0/24"
+      [32m+[0m [0m[1m[0mid[0m[0m                              = (known after apply)
+      [32m+[0m [0m[1m[0mipv6_cidr_block_association_id[0m[0m  = (known after apply)
+      [32m+[0m [0m[1m[0mmap_public_ip_on_launch[0m[0m         = true
+      [32m+[0m [0m[1m[0mowner_id[0m[0m                        = (known after apply)
+      [32m+[0m [0m[1m[0mtags_all[0m[0m                        = (known after apply)
+      [32m+[0m [0m[1m[0mvpc_id[0m[0m                          = (known after apply)
+    }
+
+[1m  # aws_vpc.vpc[0m will be created[0m[0m
+[0m  [32m+[0m[0m resource "aws_vpc" "vpc" {
+      [32m+[0m [0m[1m[0marn[0m[0m                              = (known after apply)
+      [32m+[0m [0m[1m[0massign_generated_ipv6_cidr_block[0m[0m = false
+      [32m+[0m [0m[1m[0mcidr_block[0m[0m                       = "10.83.0.0/16"
+      [32m+[0m [0m[1m[0mdefault_network_acl_id[0m[0m           = (known after apply)
+      [32m+[0m [0m[1m[0mdefault_route_table_id[0m[0m           = (known after apply)
+      [32m+[0m [0m[1m[0mdefault_security_group_id[0m[0m        = (known after apply)
+      [32m+[0m [0m[1m[0mdhcp_options_id[0m[0m                  = (known after apply)
+      [32m+[0m [0m[1m[0menable_classiclink[0m[0m               = (known after apply)
+      [32m+[0m [0m[1m[0menable_classiclink_dns_support[0m[0m   = (known after apply)
+      [32m+[0m [0m[1m[0menable_dns_hostnames[0m[0m             = true
+      [32m+[0m [0m[1m[0menable_dns_support[0m[0m               = true
+      [32m+[0m [0m[1m[0mid[0m[0m                               = (known after apply)
+      [32m+[0m [0m[1m[0minstance_tenancy[0m[0m                 = "default"
+      [32m+[0m [0m[1m[0mipv6_association_id[0m[0m              = (known after apply)
+      [32m+[0m [0m[1m[0mipv6_cidr_block[0m[0m                  = (known after apply)
+      [32m+[0m [0m[1m[0mmain_route_table_id[0m[0m              = (known after apply)
+      [32m+[0m [0m[1m[0mowner_id[0m[0m                         = (known after apply)
+      [32m+[0m [0m[1m[0mtags[0m[0m                             = {
+          [32m+[0m [0m"Name" = "Terraform VPC"
+        }
+      [32m+[0m [0m[1m[0mtags_all[0m[0m                         = {
+          [32m+[0m [0m"Name" = "Terraform VPC"
+        }
+    }
+
+[1m  # local_file.ansible_inventory[0m will be created[0m[0m
+[0m  [32m+[0m[0m resource "local_file" "ansible_inventory" {
+      [32m+[0m [0m[1m[0mcontent[0m[0m              = (known after apply)
+      [32m+[0m [0m[1m[0mdirectory_permission[0m[0m = "0777"
+      [32m+[0m [0m[1m[0mfile_permission[0m[0m      = "0777"
+      [32m+[0m [0m[1m[0mfilename[0m[0m             = "./../ansible/inventory"
+      [32m+[0m [0m[1m[0mid[0m[0m                   = (known after apply)
+    }
+
+[0m[1mPlan:[0m 16 to add, 0 to change, 0 to destroy.
+[0m[0m
+[1mChanges to Outputs:[0m[0m
+  [32m+[0m [0m[1m[0melb_dns_name[0m[0m = (known after apply)
+[0m[1maws_vpc.vpc: Creating...[0m[0m
+[0m[1maws_vpc.vpc: Still creating... [10s elapsed][0m[0m
+[0m[1maws_vpc.vpc: Creation complete after 18s [id=vpc-0dd7eb57815018e4c][0m
+[0m[1maws_lb_target_group.tg: Creating...[0m[0m
+[0m[1maws_internet_gateway.internet_gateway: Creating...[0m[0m
+[0m[1maws_subnet.pub_subnet[1]: Creating...[0m[0m
+[0m[1maws_security_group.sg-pub: Creating...[0m[0m
+[0m[1maws_subnet.pub_subnet[0]: Creating...[0m[0m
+[0m[1maws_internet_gateway.internet_gateway: Creation complete after 3s [id=igw-0fe2f97055eb843a1][0m
+[0m[1maws_route_table.public_route_table: Creating...[0m[0m
+[0m[1maws_route_table.public_route_table: Creation complete after 2s [id=rtb-0fb000bf905bcf241][0m
+[0m[1maws_security_group.sg-pub: Creation complete after 5s [id=sg-0438c3a25f8fedf6b][0m
+[0m[1maws_subnet.pub_subnet[1]: Still creating... [10s elapsed][0m[0m
+[0m[1maws_subnet.pub_subnet[0]: Still creating... [10s elapsed][0m[0m
+[0m[1maws_subnet.pub_subnet[0]: Creation complete after 13s [id=subnet-03977adc643118077][0m
+[0m[1maws_subnet.pub_subnet[1]: Creation complete after 13s [id=subnet-0fda55b600b28838f][0m
+[0m[1maws_lb.alb: Creating...[0m[0m
+[0m[1maws_instance.panda[0]: Creating...[0m[0m
+[0m[1maws_instance.panda[1]: Creating...[0m[0m
+[0m[1maws_route_table_association.public_route_table_association[0]: Creating...[0m[0m
+[0m[1maws_route_table_association.public_route_table_association[1]: Creating...[0m[0m
+[0m[1maws_route_table_association.public_route_table_association[1]: Creation complete after 1s [id=rtbassoc-0d11a01521678d8ca][0m
+[0m[1maws_route_table_association.public_route_table_association[0]: Creation complete after 1s [id=rtbassoc-0fd835cd8c73b7300][0m
+[0m[1maws_instance.panda[1]: Still creating... [10s elapsed][0m[0m
+[0m[1maws_instance.panda[0]: Still creating... [10s elapsed][0m[0m
+[0m[1maws_instance.panda[0]: Still creating... [20s elapsed][0m[0m
+[0m[1maws_instance.panda[1]: Still creating... [20s elapsed][0m[0m
+[0m[1maws_instance.panda[0]: Still creating... [30s elapsed][0m[0m
+[0m[1maws_instance.panda[1]: Still creating... [30s elapsed][0m[0m
+[0m[1maws_instance.panda[1]: Provisioning with 'remote-exec'...[0m[0m
+[0m[1maws_instance.panda[1] (remote-exec):[0m [0mConnecting to remote host via SSH...
+[0m[1maws_instance.panda[1] (remote-exec):[0m [0m  Host: 52.91.35.75
+[0m[1maws_instance.panda[1] (remote-exec):[0m [0m  User: ubuntu
+[0m[1maws_instance.panda[1] (remote-exec):[0m [0m  Password: false
+[0m[1maws_instance.panda[1] (remote-exec):[0m [0m  Private key: true
+[0m[1maws_instance.panda[1] (remote-exec):[0m [0m  Certificate: false
+[0m[1maws_instance.panda[1] (remote-exec):[0m [0m  SSH Agent: false
+[0m[1maws_instance.panda[1] (remote-exec):[0m [0m  Checking Host Key: false
+[0m[1maws_instance.panda[1] (remote-exec):[0m [0m  Target Platform: unix
+[0m[1maws_instance.panda[1] (remote-exec):[0m [0mConnected!
+[0m[1maws_instance.panda[1]: Still creating... [40s elapsed][0m[0m
+[0m[1maws_instance.panda[0]: Still creating... [40s elapsed][0m[0m
+[0m[1maws_instance.panda[1] (remote-exec):[0m [0mnohup: appending output to 'nohup.out'
+[0m[1maws_instance.panda[1]: Creation complete after 43s [id=i-05f768003ade6a84b][0m
+[0m[1maws_instance.panda[0]: Provisioning with 'remote-exec'...[0m[0m
+[0m[1maws_instance.panda[0] (remote-exec):[0m [0mConnecting to remote host via SSH...
+[0m[1maws_instance.panda[0] (remote-exec):[0m [0m  Host: 3.239.159.156
+[0m[1maws_instance.panda[0] (remote-exec):[0m [0m  User: ubuntu
+[0m[1maws_instance.panda[0] (remote-exec):[0m [0m  Password: false
+[0m[1maws_instance.panda[0] (remote-exec):[0m [0m  Private key: true
+[0m[1maws_instance.panda[0] (remote-exec):[0m [0m  Certificate: false
+[0m[1maws_instance.panda[0] (remote-exec):[0m [0m  SSH Agent: false
+[0m[1maws_instance.panda[0] (remote-exec):[0m [0m  Checking Host Key: false
+[0m[1maws_instance.panda[0] (remote-exec):[0m [0m  Target Platform: unix
+[0m[1maws_instance.panda[0] (remote-exec):[0m [0mConnected!
+[0m[1maws_instance.panda[0]: Still creating... [50s elapsed][0m[0m
+[0m[1maws_instance.panda[0] (remote-exec):[0m [0mnohup: appending output to 'nohup.out'
+[0m[1maws_instance.panda[0]: Creation complete after 53s [id=i-046f56b06ae2b2101][0m
+[0m[1mlocal_file.ansible_inventory: Creating...[0m[0m
+[0m[1mlocal_file.ansible_inventory: Creation complete after 0s [id=1561d1a48ef9844c3b8208b523f5dd61b6ee2b64][0m
+[31m���[0m[0m
+[31m���[0m [0m[1m[31mError: [0m[0m[1merror creating application Load Balancer: DuplicateLoadBalancerName: A load balancer with the same name 'alb' exists, but with different settings
+[31m���[0m [0m	status code: 400, request id: fe2be7e7-8179-4704-a714-d3875e4b0583[0m
+[31m���[0m [0m
+[31m���[0m [0m[0m  with aws_lb.alb,
+[31m���[0m [0m  on alb.tf line 1, in resource "aws_lb" "alb":
+[31m���[0m [0m   1: resource "aws_lb" "alb" [4m{[0m[0m
+[31m���[0m [0m
+[31m���[0m[0m
+[31m���[0m[0m
+[31m���[0m [0m[1m[31mError: [0m[0m[1merror creating LB Target Group: DuplicateTargetGroupName: A target group with the same name 'tg' exists, but with different settings
+[31m���[0m [0m	status code: 400, request id: c83882d9-afcc-49b3-b549-b1a4033a977c[0m
+[31m���[0m [0m
+[31m���[0m [0m[0m  with aws_lb_target_group.tg,
+[31m���[0m [0m  on alb.tf line 20, in resource "aws_lb_target_group" "tg":
+[31m���[0m [0m  20: resource "aws_lb_target_group" "tg" [4m{[0m[0m
+[31m���[0m [0m
+[31m���[0m[0m
+[8mha:////4NrdlEh6LY+40Oms30iz6M1uWwsgz3FcmPf7CyfOx8HlAAAAph+LCAAAAAAAAP9tjbEKwjAURV9bHFwd/YgUEUSQTq6hi18QkxiThvdqkppOfpG/5j9YWnDyDpd77nLeH1jFAA0Fw5zGzmKUlvV+MNNimUJ385SZoyuThJG8Zq3OLSl9XrClpGFJUULFYa1ReooWTYINd+Ipai/Q1JcUpu/EobTqAS8o+GROIqQZxgDb+6Ai4c/zVwBj3yeodvvj3IcvfOLIVMAAAAA=[0m[Pipeline] }
+[8mha:////4AraEgovbBGklm3qfBEY/gwEiytKDuNtKreEDURbixxUAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjhCgQSkVrpeEFxjbGjnUXbAen4kV8jT8QJRIVW6x2tpn3B1YxQEPBMKexsxilZb0fzLRYptDdPGXm6MokYSSvWatzS0qfF2wpaVhSlFBxWGuUnqJFk2DDnXiK2gs09SWF6TtxKK16wAsKPpmTCGmGMcD2PqhI+PP8FcDY9wmq3f449+ELcri2a8AAAAA=[0m[Pipeline] // withCredentials
+[8mha:////4C42ExRqXWSzpXdeWgs48T8cAiVpigzcd7kZkDcclHlhAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDiAIJUdFabniBsY1xYt0F2yGpeBFf4w8YIlGxxWpnm3m+YBYDHChY1hhsHUblWOd7mxcbKLQXTwNr6MwUYSRvmDCDIG2OEwpKBqYUJVQc5gaVp+jQJljwRt5l7SXa+pRC/vYcSqdv8ICCZ3OSIX1hDLC89joS/jx/BTB2XYJqvV19erN7A0S5QZPAAAAA[0m[Pipeline] }
+[8mha:////4CIFlog4vrUkaKkbjCJuAXmFPCl7dzn6/dL0VigKexhyAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjICQKREVrueEFxjbGiXUXbAen4kV8jT8QiETFFqudbeb5gkUMcKBgWWuwcxiVY70f7LRYptBdPGXW0pkpwkjeMGGyIG2OMwpKBuYUJVQclgaVp+jQJljxVt5l7SXa+pTC9O05lE7f4AEFn8xJhvSFMcD6OuhI+PP8FcDY9wmqZtt8erN7A2GviaXAAAAA[0m[Pipeline] // dir
+[8mha:////4F7OJr7NQQYAizdpEuzYTCDVkShqUmBFeOHK7QH+/x5sAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjIkSDqGitNLzAJMbYse6MfSGpeBFf4w8EIlGxxWpnm3m+YJEiHCga4TR2FlNjRfC9mZYYKHYXT4NwdBYNYSKvRa2Hmlp9nLEm1jAny6GQsNTYeEoWDcNKOnVXpVdoyhPH6dtLyG17gwdkcjKzivyFMcL62reJ8Of5K4AxBIZis60+Xe3eaoVm48AAAAA=[0m[Pipeline] }
+[8mha:////4CEUSh+Yf7eo+440tyimCg4kK+IlWZcjvCBi9d3MBnroAAAAph+LCAAAAAAAAP9tjTsOwjAQRDeJKGgpOYQjfhWiorXccAJjG+PE2g22Q1JxIq7GHTBEomKK0bxp3vMFsxjgQMGyxmDrMCrHOt/bvNhAob14GlhDZ6YII3nDhBkEaXOcUFAyMKUooeIwN6g8RYc2wYI38i5rL9HWpxTyt+dQOn2DBxQ8m5MM6QtjgOW115Hw5/krgLHrElSr7ebT690bZN8Y3MAAAAA=[0m[Pipeline] // withEnv
+[8mha:////4LmJviORoBWn5S5eRbT/qzS28b77zBomeOeD+iaZsIogAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDKB2iorXS8AKTGGPHujP2haTiRXyNPxCIRMUWq51t5vmCRYpwoGiE09hZTI0VwfdmWmKg2F08DcLRWTSEibwWtR5qavVxxppYw5wsh0LCUmPjKVk0DCvp1F2VXqEpTxynby8ht+0NHpDJycwq8hfGCOtr3ybCn+evAMYQGIptVX16t3kDZRXVacAAAAA=[0m[Pipeline] }
+[8mha:////4Ck5ix1Zoxo3ke+bsMsV2zTuPEBXll+yYf3i2BMG2I7TAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjSFAgREVrueEFxjbGiXUXbAen4kV8jT8QiETFFqudbeb5gkUMcKBgWWuwcxiVY70f7LRYptBdPGXW0pkpwkjeMGGyIG2OMwpKBuYUJVQclgaVp+jQJljxVt5l7SXa+pTC9O05lE7f4AEFn8xJhvSFMcD6OuhI+PP8FcDY9wmqZrP9dLN7A7b1U53AAAAA[0m[Pipeline] // stage
+[8mha:////4Fb7PTVMeQW9EPFpjIEDiJPh9vHD+DDBQ+yxquVhEMCSAAAAqR+LCAAAAAAAAP9tjbEOgjAURR8QBldHP6JEY1gMk2vD4hfUUmuheQ/bhzD5Rf6a/yBK4uSd7rnJzXm+II8BKgpWtAY7h1E70fvBzk2MFLqLp1G0dBaaMJI3ojZjTY05LlgTG1iSpJBJWBnUnqJDy7CWrbqrwiu0xYnDvB0kpK65wQMSOZtZBf7CFGBzHZpI+PP8FcDUM6S7kiHb7svPNX8D5PwQvMMAAAA=[0m[Pipeline] stage
+[8mha:////4MuT8mjZy0gmx0MQwP2Bv0ah9V0ZVTLdW5/1ZGpht+zlAAAAqR+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BCpkBAMqBNr1IUThCSEpNH/JUlpJ07E1bgDpZWY8GDZlqz3ekMZA9QUDHMaW4tRWtb53kyJDRTaq6eBObowSRjJa9booSGlT0ttKGlYlOVQcFhplJ6iRZNgzZ14iMoLNNU5hWk7csitusMTMj6RkwhpLmOAza1XkfDH+QuAsUtQbHf72Q/fb/kBXWQSs8QAAAA=[0m[Pipeline] { (Copy Ansible role)
+Stage "Copy Ansible role" skipped due to earlier failure(s)
+[8mha:////4JXNkBF56NeAarr775+b3rBLKYAqh5QbkzScAeSxLN5kAAAAph+LCAAAAAAAAP9tjbEKwjAURV9bHFwd/YgUQVCQTq6hi18QkxiThvdqkppOfpG/5j9YWnDyDpd77nLeH1jFAA0Fw5zGzmKUlvV+MNNimUJ385SZoyuThJG8Zq3OLSl9XrClpGFJUULFYa1ReooWTYINd+Ipai/Q1JcUpu/EobTqAS8o+GROIqQZxgDb+6Ai4c/zVwBj3yeodvvj3IcvNE1LZsAAAAA=[0m[Pipeline] }
+[8mha:////4HXLoaQ1JJ2bqe1KjkEBhCY1C+VMPkQZg5jkChSCU7xLAAAAph+LCAAAAAAAAP9tjbEKwjAURV9bHFwd/YgUQQSRTq6hi18QkxiThvdqkppOfpG/5j9YWnDyDpd77nLeH1jFAA0Fw5zGzmKUlvV+MNNimUJ385SZoyuThJG8Zq3OLSl9XrClpGFJUULFYa1ReooWTYINd+Ipai/Q1JcUpu/EobTqAS8o+GROIqQZxgDb+6Ai4c/zVwBj3yeodvvj3IcvFnY7t8AAAAA=[0m[Pipeline] // stage
+[8mha:////4EGtdOoVNpacnITnwYFw0gNQ/iiY7UDeNojgxP4sj66PAAAAqR+LCAAAAAAAAP9tjbEOgjAURR8QBldHP6KoiS7EybVh8Qsq1Fpo3sP2YZn8In/NfxAlcfJO99zk5jxfkAcPB/JGtBo7i6G2oneDmZqI5LuLoyhaOouaMJDTotKxokYfZ6yINcxJUsgkLDTWjoJFw7CUrbqrwik0xYn9tJUSUtvc4AGJnMysPH9h9LC6Dk0g/Hn+CmDsGdLtniHb7Nafa/4GTRQ+zMMAAAA=[0m[Pipeline] stage
+[8mha:////4E5+ZFMPRLqzAH9bntq9rcRY6mtUrfNaZumnmUYElOg6AAAAqB+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkSRwck4sTYsPkEttRaa/8e2WCafyFfzHayQOHnD5e6Sy/d6Q+kdnMhp1iscDHpp2GgnnRKL5Iarpch6ujBJ6Mkq1qrYUqeatbYUFKzKcig4bBRKS96gDrDlvXiIygrU1Tm4tB055Ka7wxMynshBuLCU2cHuNnWe8Mf5C4B5DFDUh/3i9fdbfgCR8JfxxAAAAA==[0m[Pipeline] { (Run Ansible)
+Stage "Run Ansible" skipped due to earlier failure(s)
+[8mha:////4OVo1qw3j5I+EYgiOePoN0SixZTNYhumTD/cgFluMBB2AAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjIFEhqrRWGl5gYmPsWHfGdkgqXsTX+ANWIlGxxWpnm3l/YBMDnCloZhUOBmNvmHejzotNFIabo4lZurKeMJJTrFNTR1K1K3aUFKwpSqg4bBX2jqJBnWDHrXiK2gnU9SWF/J04lEY+4AUFz+YkQlpgDrC/jzIS/jx/BTB7n6Bqjoelmy+Qhun+wAAAAA==[0m[Pipeline] }
+[8mha:////4DQH9B/K5scSFr/HdYBYQOiGelCOoJpsE5b1jKz+i3hXAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDQlQoFa2VhhcY2xg71l2wHZyKF/E1/kCUSFRssdrZZt4fWMUADQXDnMbOYpSW9X4w02KZQnfzlJmjK5OEkbxmrc4tKX1esKWkYUlRQsVhrVF6ihZNgg134ilqL9DUlxSm78ShtOoBLyj4ZE4ipBnGANv7oCLhz/NXAGPfJ6j2x8Pcuy+yvZkvwAAAAA==[0m[Pipeline] // stage
+[8mha:////4BsbouZveszT5I87Y+J1tGwiCx7vOerWS/9aYCjUGVjTAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjENBEVLRWGl5gYmOcWHfBvpBUvIiv8QcsIlGx1c4083rDIgY4UrCiNdg5jI0TvR9semKk0F09jaKli2gII3kjajPWpM1pxprYwLwsh0LC0mDjKTq0DCvZqocqvUJbnjkkV0nInb7DEzKZyqwCf2EKsL4NOhL+On8DMPU9Q7HZ7xjy7eED3B1IV78AAAA=[0m[Pipeline] }
+[8mha:////4MZlg6Z31qmYNBV6ZGCkCt+TSRqKdH4ZjKyftNLpCxqAAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjkFIhKlorDS8wsTFOrDtjX3AqXsTX+AMRkajYameaeb1hlSIcKVrRGxwcps6J4Ec7P5EpDldPWfR0ER1hIm9Ea3JL2pwWbIkNLCtKqCSsDXaekkPLsJG9eqjaK7T1mePsDhJKp+/whELOZVaRvzBF2N5GnQh/nb8BmEJgqHZNw1Dumw/Dnx0FvwAAAA==[0m[Pipeline] // withEnv
+[8mha:////4Or/WjZoASsCq4jFAZNKFw1GfDZ0auBbgugYsARU8jORAAAApR+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxGGQhrHijZD4wliEmMgs4vJIlSeyKt5BxmZsfJX/73mvd6wSRFOFJ3oLPYek/ZiCKNbnpgo9tdAk+joIjRhomBFa6eWjG1WbIktrMtyKCRsLepAyaNj2MlOPVQZFLryzHFxRwm5N3d4QiaXMqvIX5gj7G+jSYS/zt8AzMPAUFSHmiGv6g8U760xvwAAAA==[0m[Pipeline] }
+[8mha:////4Ng7dc5Rxq4oWfpPqkoqfh+5Pmz5b2Gyfv77JMRTNsNgAAAAph+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxGGgrFwrGgzNJ4gJjEGMruYLELlibyad5CRGSt/9d9r3usNmxThRNGJzmLvMWkvhjC65YmJYn8NNImOLkITJgpWtHZqydhmxZbYwrosh0LC1qIOlDw6hp3s1EOVQaErzxwXd5SQe3OHJ2RyKbOK/IU5wv42mkT46/wNwDwMDEVVHxjyqv4AC234Y78AAAA=[0m[Pipeline] // withEnv
+[8mha:////4MGVI+VuavQz2+wYrA19STw5Nd16jHxmpaD/mI5PIJpZAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjFEhIiIrWSsMLTGyME+vO2BecihfxNf5ARCQqttqZZl5vWKUIR4pW9AYHh6lzIvjRzk9kisPVUxY9XURHmMgb0ZrckjanBVtiA8uKEioJa4Odp+TQMmxkrx6q9gptfeY4u4OE0uk7PKGQc5lV5C9MEba3USfCX+dvAKYQGKpmt2com+YDxxvDlb8AAAA=[0m[Pipeline] }
+[8mha:////4DYqwVUSYeiX3hU1mojjwUKgzYWl+Sg3t0JnvnwGOsSVAAAAph+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxGksHAcKtsMjSeIJMZAZheTRag8kVfzDmZkxspf/fea93rDKgaoKVjRGewdxtaJwY82PTFR6K+eJtHRRbSEkbwRjZka0ua0YENsYFmWQyFhbbD1FB1aho3s1EOVXqEtzxySO0rInb7DEzKZyqwCf2EOsL2NOhL+On8DMA8DQ1HtDwx5tfsA9PiYKb8AAAA=[0m[Pipeline] // withEnv
+[8mha:////4AseYrHJ2t1xE/QILodGUoFD1g++m7ZV63WZSWUU6tj3AAAApR+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYQDEqJBVLRWGl5gHGOcWHfBvuBUvIiv8QciIlGx1c4083rDIkU4UnSytdh5TMbLPgxuejJT7K6BsmzpIg1homBlbXNNjT3NWBNbmCcKKBUsLZpAyaNjWKlWP3QVNLrqzHFyBwWFb+7wBKGmMuvIXxgjrG9Dkwh/nb8BGPueodzuNwxi9wH8q5ievgAAAA==[0m[Pipeline] }
+[8mha:////4ChGYTFFtssnysmfS7NciQJoC0nL5EpZRwihDyWnGWfqAAAApR+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYSjCIkGUdFaaXiBiY1xYt0F+4JT8SK+xh+IiETFVjvTzOsNqxThSNHJzmLvMbVeDmF085OZYn8NlGVHF9kSJgpWNjY3ZOxpwYbYwjJRQKlgbbENlDw6ho3q9ENXQaOrzhxnd1BQeHOHJwg1l1lH/sIUYXsbTSL8df4GYBoGhrLe1wxi9wHvF5w9vgAAAA==[0m[Pipeline] // node
+[8mha:////4FKsJ0/djnkm2+BfNBfRLtJjIBBeZKeUbMdYSF561cjGAAAApB+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjUtAgKlorDS8wsTFOrDtjX3AqXsTX+AMRkajYameaeb1hlSIcKVrRGxwcps6J4Ec7P5EpDldPWfR0ER1hIm9Ea3JL2pwWbIkNLCtKqCSsDXaekkPLsJG9eqjaK7T1mePsDhJKp+/whELOZVaRvzBF2N5GnQh/nb8BmEJgqHb7hqFoPqldOw2+AAAA[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 1
+Finished: FAILURE

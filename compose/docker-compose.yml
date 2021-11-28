@@ -22,7 +22,7 @@ services:
     - docker_network
     volumes: 
     - /var/run/docker.sock:/var/run/docker.sock
-    command: java -jar agent.jar -jnlpUrl http://192.168.44.44:8880/computer/ubuntucompose/jenkins-agent.jnlp -secret 3d120ed1bc04c0a5f9298050fe34f806b919bc093c418dc90410b6db35f2e9ef -workDir "/home/"
+    command: java -jar agent.jar -jnlpUrl http://192.168.44.44:8880/computer/ubuntucompose/jenkins-agent.jnlp -secret ab998ab1cb5dd0fbeda3b6732744d0b76ddf6746cce79005bca63e0afedc5f27 -workDir "/home/"
 
   selenium-hub:
     image: selenium/hub:latest

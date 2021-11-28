@@ -1,0 +1,20 @@
+commit fc2232a6f103f4f7738fae3ac57c610978d82fce
+tree b9e4d3551ce622884d3ec49f6edfb82d6ec1c2b1
+parent 9159bbde7dba9aa13a08b82b185f098708b57aec
+author gregwpr <greg@telkab.pl> 2021-11-26 22:58:51 +0000
+committer gregwpr <greg@telkab.pl> 2021-11-26 22:58:51 +0000
+
+    sdsdsd
+
+
+:100644 100644 0708c5302ccabd762283202d0e203afea57a35b7 c554573cee9c5d66a1d9628f7bd0dd9827490975 M	Jenkinsfile
+commit 9159bbde7dba9aa13a08b82b185f098708b57aec
+tree 56fa8f82aa6205631ec837dadedbbd580e3ee89a
+parent 3ec126ff29e8b9146c7abac646e16c878a7e135a
+author gregwpr <greg@telkab.pl> 2021-11-26 22:58:09 +0000
+committer gregwpr <greg@telkab.pl> 2021-11-26 22:58:09 +0000
+
+    sdsdsd
+
+
+:100644 100644 674bd4a820371ba5c40a34b4a31babfd08263191 0708c5302ccabd762283202d0e203afea57a35b7 M	Jenkinsfile

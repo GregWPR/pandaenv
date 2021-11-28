@@ -1,0 +1,40 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@3.8">
+  <node class="cps.n.StepEndNode" plugin="workflow-cps@2633.v6baeedc13805">
+    <parentIds>
+      <string>15</string>
+    </parentIds>
+    <id>16</id>
+    <startId>10</startId>
+  </node>
+  <actions>
+    <wf.a.TimingAction plugin="workflow-api@2.47">
+      <startTime>1637964453943</startTime>
+    </wf.a.TimingAction>
+    <wf.a.ErrorAction plugin="workflow-api@2.47">
+      <error class="java.net.MalformedURLException">
+        <detailMessage>no protocol: </detailMessage>
+        <stackTrace>
+          <trace>java.base/java.net.URL.&lt;init&gt;(URL.java:645)</trace>
+          <trace>java.base/java.net.URL.&lt;init&gt;(URL.java:541)</trace>
+          <trace>java.base/java.net.URL.&lt;init&gt;(URL.java:488)</trace>
+          <trace>hudson.tools.ZipExtractionInstaller.performInstallation(ZipExtractionInstaller.java:82)</trace>
+          <trace>hudson.tools.InstallerTranslator.getToolHome(InstallerTranslator.java:70)</trace>
+          <trace>hudson.tools.ToolLocationNodeProperty.getToolHome(ToolLocationNodeProperty.java:107)</trace>
+          <trace>hudson.tools.ToolInstallation.translateFor(ToolInstallation.java:220)</trace>
+          <trace>com.cloudbees.jenkins.plugins.customtools.CustomTool.forNode(CustomTool.java:164)</trace>
+          <trace>com.cloudbees.jenkins.plugins.customtools.CustomTool.forNode(CustomTool.java:66)</trace>
+          <trace>org.jenkinsci.plugins.workflow.steps.ToolStep$Execution.run(ToolStep.java:155)</trace>
+          <trace>org.jenkinsci.plugins.workflow.steps.ToolStep$Execution.run(ToolStep.java:136)</trace>
+          <trace>org.jenkinsci.plugins.workflow.steps.SynchronousNonBlockingStepExecution.lambda$start$0(SynchronousNonBlockingStepExecution.java:47)</trace>
+          <trace>java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)</trace>
+          <trace>java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)</trace>
+          <trace>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)</trace>
+          <trace>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)</trace>
+          <trace>java.base/java.lang.Thread.run(Thread.java:829)</trace>
+        </stackTrace>
+        <suppressedExceptions class="empty-list"/>
+      </error>
+    </wf.a.ErrorAction>
+  </actions>
+</Tag>

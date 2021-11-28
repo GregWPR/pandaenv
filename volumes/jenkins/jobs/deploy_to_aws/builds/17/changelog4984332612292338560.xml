@@ -1,0 +1,10 @@
+commit 4f995f78cacc796c93c39eedd005675140d1555c
+tree 72ed4d299a8304674c72646ad6d2c6019ff80843
+parent fc2232a6f103f4f7738fae3ac57c610978d82fce
+author gregwpr <greg@telkab.pl> 2021-11-27 00:04:03 +0000
+committer gregwpr <greg@telkab.pl> 2021-11-27 00:04:03 +0000
+
+    sdfsdfsdf
+
+
+:100644 100644 c554573cee9c5d66a1d9628f7bd0dd9827490975 f3923616b2213b2bc28ab642a89c4a675fdd9b6f M	Jenkinsfile

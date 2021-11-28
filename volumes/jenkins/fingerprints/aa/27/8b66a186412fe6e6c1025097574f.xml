@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2021-11-26 22:59:22.42 UTC</timestamp>
+  <md5sum>aa278b66a186412fe6e6c1025097574f</md5sum>
+  <fileName>Credential id=panda_kurs name=panda_kurs.pem</fileName>
+  <usages>
+    <entry>
+      <string>deploy_to_aws</string>
+      <ranges>15-16</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

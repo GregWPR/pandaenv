@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2021-11-26 22:59:23.440 UTC</timestamp>
+  <md5sum>c7a1fb7839ef200071a03c0039488c07</md5sum>
+  <fileName>Credential id=aws-credentials name=AKIA6MHOFB6WZ7GJXRFA</fileName>
+  <usages>
+    <entry>
+      <string>deploy_to_aws</string>
+      <ranges>15-16</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>
